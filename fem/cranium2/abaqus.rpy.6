@@ -1,0 +1,104 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2020 replay file
+# Internal Version: 2019_09_13-13.49.31 163176
+# Run by vtac on Thu Jan 20 18:03:01 2022
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=305.9375, 
+    height=174.226577758789)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+o1 = session.openOdb(
+    name='/home/vtac/NODE_abaqus/UANISO/cranium2/cranium2.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_abaqus/UANISO/cranium2/cranium2.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     2
+#: Number of Meshes:             3
+#: Number of Element Sets:       18344
+#: Number of Node Sets:          25
+#: Number of Steps:              2
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1136.07, 
+    farPlane=1865.19, width=908.625, height=522.173, cameraPosition=(34.9064, 
+    -146.14, 1463.59), cameraUpVector=(0.06959, 0.958967, -0.274843))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1132.13, 
+    farPlane=1869.13, width=905.473, height=520.362)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1165.62, 
+    farPlane=1835.64, width=655.796, height=376.876, viewOffsetX=11.2148, 
+    viewOffsetY=-15.7403)
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1056.09, 
+    farPlane=1901.64, width=762.14, height=437.99, cameraPosition=(-740.952, 
+    -1275.81, 465.161), cameraUpVector=(0.0921215, 0.649333, 0.754904), 
+    cameraTarget=(-110.036, -34.4511, -27.3933))
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxValue=73.8579, minValue=4.11354E-21, intervalType=LOG)
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(INVARIANT, 
+    'Max. Principal'), )
+#: Warning: Contour Min value is not greater than zero. The Contour Interval type value set to LOG will be ignored.
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxAutoCompute=OFF, maxValue=72.4668, minAutoCompute=OFF, minValue=0.1)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsMode=SPECTRUM)
+session.Spectrum(name="Spectrum-1", colors =('#00B9FF', '#00FFE7', '#00FF8B', 
+    '#00FF2E', '#2EFF00', '#8BFF00', '#E7FF00', '#FFB900', '#FF5C00', 
+    '#FF0000', '#950000', '#000000', ))
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    spectrum='Spectrum-1')
+session.viewports['Viewport: 1'].viewportAnnotationOptions.setValues(title=OFF, 
+    state=OFF, annotations=OFF)
+session.graphicsOptions.setValues(backgroundStyle=SOLID, 
+    backgroundColor='#FFFFFF')
+session.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(
+    visibleEdges=NONE)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/UANISO/cranium2/images_lightblue/nomesh', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1085.64, 
+    farPlane=1857.7, width=783.467, height=450.247, cameraPosition=(-1264.93, 
+    -951.846, 55.8409), cameraUpVector=(0.198598, 0.369505, 0.907758), 
+    cameraTarget=(-110.684, -34.0506, -27.8993))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1064.5, 
+    farPlane=1888.45, width=768.213, height=441.48, cameraPosition=(-928.16, 
+    -1222.7, 287.705), cameraUpVector=(0.307126, 0.429088, 0.849445), 
+    cameraTarget=(-111.912, -33.0631, -28.7446))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1066.01, 
+    farPlane=1887.16, width=769.302, height=442.106, cameraPosition=(-918.404, 
+    -1227.74, 293.688), cameraUpVector=(0.304765, 0.435048, 0.847261), 
+    cameraTarget=(-111.916, -33.0612, -28.7469))
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/UANISO/cranium2/images_lightblue/nomesh', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1060.61, 
+    farPlane=1889.47, width=765.407, height=439.868, cameraPosition=(-1018.96, 
+    -1153.42, 293.282), cameraUpVector=(0.308012, 0.433507, 0.846877), 
+    cameraTarget=(-111.885, -33.0839, -28.7468))
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/UANISO/cranium2/images_lightblue/nomesh', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1062.48, 
+    farPlane=1884.37, width=766.756, height=440.643, cameraPosition=(-1131.65, 
+    -1065.37, 247.07), cameraUpVector=(0.281331, 0.428412, 0.858671), 
+    cameraTarget=(-111.732, -33.2032, -28.6842))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1062.62, 
+    farPlane=1885.88, width=766.859, height=440.702, cameraPosition=(-1079.5, 
+    -1111.54, 258.08), cameraUpVector=(0.241464, 0.466204, 0.851087), 
+    cameraTarget=(-111.86, -33.09, -28.7112))
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/UANISO/cranium2/images_lightblue/nomesh', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))

@@ -1,0 +1,47 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2020 replay file
+# Internal Version: 2019_09_13-13.49.31 163176
+# Run by vtac on Wed Jan 19 18:46:11 2022
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=305.9375, 
+    height=174.226577758789)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+o1 = session.openOdb(name='/home/vtac/NODE_abaqus/cranium1/cranium1.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_abaqus/cranium1/cranium1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     2
+#: Number of Meshes:             3
+#: Number of Element Sets:       10580
+#: Number of Node Sets:          6
+#: Number of Steps:              3
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=752.763, 
+    farPlane=1258.16, width=629.362, height=361.685, cameraPosition=(1098.76, 
+    222.822, 185.597), cameraUpVector=(-0.468232, 0.877441, -0.104193), 
+    cameraTarget=(111.383, 70.9041, 144.772))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=751.046, 
+    farPlane=1259.88, width=627.927, height=360.86, cameraPosition=(1098.76, 
+    222.822, 185.597), cameraUpVector=(-0.348061, -0.178897, 0.920244), 
+    cameraTarget=(111.383, 70.9041, 144.772))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=759.744, 
+    farPlane=1253.78, width=635.199, height=365.039, cameraPosition=(1103.93, 
+    112.441, 258.273), cameraUpVector=(-0.429114, -0.178284, 0.885481), 
+    cameraTarget=(111.412, 70.2858, 145.179))
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxValue=7.78459, minValue=8.2155E-20, intervalType=LOG)

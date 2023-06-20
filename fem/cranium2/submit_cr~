@@ -1,0 +1,10 @@
+#!/bin/sh -l
+
+module load abaqus/2020
+
+cd $SLURM_SUBMIT_DIR
+
+abaqus job=cranium user=NODEMM ask_delete=off cpus=20
+
+#To submit job execute this in the command line: "sbatch -t 8:00:00 --nodes=1 --gpus=2 submit_cr"
+#CPU task (MCMC): "sbatch -t 8:00:00 --nodes=1 --ntasks=1 --cpus-per-task=20 --gpus=1 submit_cr"

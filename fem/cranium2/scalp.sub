@@ -1,0 +1,8 @@
+#!/bin/sh -l
+#SBATCH --nodes=1 --gpus-per-node=1 --time=1:30:00
+
+module load abaqus/2020
+
+abaqus job=cranium2 user=NODEMM.f ask_delete=off
+
+#To submit job execute this in the command line: "sbatch batch.sub

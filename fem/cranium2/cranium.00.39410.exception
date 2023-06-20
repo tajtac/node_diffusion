@@ -1,0 +1,58 @@
+<Description>
+      ABAQUS/standard rank 00 pid 39410 received signal 6 (Aborted)
+</Description>
+
+<Context>
+   ELEMENT LOOP
+</Context>
+
+<Phase>
+   Increment | Attempt
+</Phase>
+
+<Callstack>
+   1) libABQSMABasCoreUtils.so   ! inline @ 0x0000c2e12002
+   2) libABQSMABasCoreUtils.so   ! SMABasException::Throw
+   3) libABQSMAAbuBasicUtils.so  ! utl_File::Read
+   4) libABQSMARfmInterface.so   ! rfm_FileReprLocal::Read
+   5) libABQSMARfmInterface.so   ! rfm_SpaceReprFile::Read
+   6) libABQSMARfmInterface.so   ! rfm_IOBuffer::BufferBeginRead
+   7) libABQSMARfmInterface.so   ! rfm_IOBuffer::PrepRead
+   8) libABQSMARfmInterface.so   ! rfm_IOBuffer::Read
+   9) libABQSMARfmInterface.so   ! rfm_TableRepr::LoadCache
+  10) libABQSMARfmInterface.so   ! rfm_TableRepr::UpdateRow
+  11) libABQSMARfmInterface.so   ! rfm_Table::UpdateRow
+  12) libABQSMARfmInterface.so   ! rom_MementoWrite::rom_MementoWrite
+  13) libABQSMARfmInterface.so   ! rom_MementoWrite::MakeWriteObjImpl
+  14) libABQSMARfmInterface.so   ! rom_MementoWrite::MakeWriteObjWithPtr
+  15) libABQSMAAbuBasicUtils.so  ! cls_WriteVisitor::StartWrite
+  16) libABQSMAAbuBasicUtils.so  ! cls_ArrayPrim<int>::DBWrite
+  17) libABQSMARomDiagEx.so      ! dia_DiagnosticData::DBWrite
+  18) libABQSMARomDiagEx.so      ! cls_ListObj<dia_DiagnosticData, cow_ArrayCOW<dia_DiagnosticData, cow_Direct<dia_DiagnosticData> > >::Flush
+  19) libABQSMARomDiagEx.so      ! cls_ListObj<dia_DiagnosticData, cow_ArrayCOW<dia_DiagnosticData, cow_Direct<dia_DiagnosticData> > >::~cls_ListObj
+  20) libABQSMARomDiagEx.so      ! ddr_Ddb::~ddr_Ddb
+</Callstack>
+
+<Memory>
+   <Current>            2780 MB </Current>
+   <Resident>           1102 MB </Resident>
+   <Physical>          96256 MB </Physical>
+   <Limit>             77004 MB </Limit>
+   <Accessible>        96256 MB </Accessible>
+   <Allocator>            DL    </Allocator>
+   <HugePages>        always    </HugePages>
+</Memory>
+
+<Directories>
+  <current> /scratch/brown/vtac/vtac_cranium_38573 </current> 
+    <indir> /home/vtac/NODE_abaqus/cranium </indir> 
+   <outdir> /home/vtac/NODE_abaqus/cranium </outdir>
+   <tmpdir> /scratch/brown/vtac/vtac_cranium_38573 </tmpdir>
+</Directories>
+
+<Installation>
+     <Version> 2020 6.20-1 </Version>
+       <Build>   2019_09_13-13.49.31 163176 </Build>
+  <Executable> /apps/cent7/abaqus/abaqus-2020/EstProducts/2020/linux_a64/code/bin/standard </Executable>
+</Installation>
+

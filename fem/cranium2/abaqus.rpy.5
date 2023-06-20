@@ -1,0 +1,301 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2020 replay file
+# Internal Version: 2019_09_13-13.49.31 163176
+# Run by vtac on Wed Jan 19 18:50:22 2022
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=305.9375, 
+    height=174.226577758789)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+o1 = session.openOdb(name='/home/vtac/NODE_abaqus/cranium2/cranium2.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_abaqus/cranium2/cranium2.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     2
+#: Number of Meshes:             3
+#: Number of Element Sets:       18344
+#: Number of Node Sets:          25
+#: Number of Steps:              2
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1130.04, 
+    farPlane=1871.37, width=903.805, height=519.403, cameraPosition=(109.397, 
+    -125.75, 1455.24), cameraUpVector=(-0.233833, 0.940334, -0.247174))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1126.66, 
+    farPlane=1874.74, width=901.104, height=517.851)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1115.45, 
+    farPlane=1913.45, width=892.136, height=512.697, cameraPosition=(-112.636, 
+    -1279.62, 820.79), cameraUpVector=(-0.239454, 0.788609, 0.566355), 
+    cameraTarget=(-120.654, -50.8267, -17.9577))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1086.46, 
+    farPlane=1943.03, width=868.948, height=499.371, cameraPosition=(-676.954, 
+    -1341.36, 478.327), cameraUpVector=(-0.023251, 0.67996, 0.732881), 
+    cameraTarget=(-130.591, -51.9138, -23.9883))
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxValue=73.8579, minAutoCompute=OFF, minValue=0.1, intervalType=LOG)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsMode=SPECTRUM)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+#: Warning: The user-specified Contour Min value must be less than the auto-computed Contour Max value.
+#: The user-specified Contour Min value has been reset to the auto-computed Contour Min value.
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxAutoCompute=OFF, maxValue=73.8579, minValue=4.11354E-21)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    minAutoCompute=OFF, minValue=0.1)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=0 )
+session.graphicsOptions.setValues(backgroundStyle=SOLID, 
+    backgroundColor='#FFFFFF')
+session.viewports['Viewport: 1'].viewportAnnotationOptions.setValues(title=OFF, 
+    state=OFF, annotations=OFF)
+session.viewports['Viewport: 1'].view.fitView()
+session.imageAnimationOptions.setValues(vpDecorations=ON, vpBackground=OFF, 
+    compass=OFF)
+session.writeImageAnimation(
+    fileName='/home/vtac/NODE_abaqus/cranium2/video1.avi', format=AVI, 
+    canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].animationController.setValues(
+    animationType=TIME_HISTORY)
+session.viewports['Viewport: 1'].animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].animationController.stop()
+session.viewports['Viewport: 1'].animationController.showFirstFrame()
+session.viewports['Viewport: 1'].animationController.decrementFrame()
+session.imageAnimationOptions.setValues(vpDecorations=ON, vpBackground=OFF, 
+    compass=OFF)
+session.writeImageAnimation(
+    fileName='/home/vtac/NODE_abaqus/cranium2/video1.avi', format=AVI, 
+    canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].animationController.showFirstFrame()
+session.viewports['Viewport: 1'].animationController.decrementFrame()
+session.viewports['Viewport: 1'].animationController.showFirstFrame()
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1152.31, 
+    farPlane=1836.17, width=236.574, height=135.955, viewOffsetX=38.3503, 
+    viewOffsetY=88.6002)
+session.viewports['Viewport: 1'].viewportAnnotationOptions.setValues(triad=OFF, 
+    legend=OFF)
+session.imageAnimationOptions.setValues(vpDecorations=ON, vpBackground=OFF, 
+    compass=OFF)
+session.writeImageAnimation(
+    fileName='/home/vtac/NODE_abaqus/cranium2/video2.avi', format=AVI, 
+    canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].animationController.showFirstFrame()
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1161.46, 
+    farPlane=1827.01, width=167.453, height=96.2328, viewOffsetX=-69.0267, 
+    viewOffsetY=-25.0205)
+session.imageAnimationOptions.setValues(vpDecorations=ON, vpBackground=OFF, 
+    compass=OFF)
+session.writeImageAnimation(
+    fileName='/home/vtac/NODE_abaqus/cranium2/video3.avi', format=AVI, 
+    canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsMode=SPECIFY, outsideLimitsBelowColor='#CBCBCB')
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsMode=SPECTRUM)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsMode=SPECIFY, outsideLimitsBelowColor='#CB53BD')
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsBelowColor='#CBA316')
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsBelowColor='#15CBB0')
+session.Spectrum(name="Spectrum-1", colors =('#00B9FF', '#00FFE7', '#00FF8B', 
+    '#00FF2E', '#2EFF00', '#8BFF00', '#E7FF00', '#FFB900', '#FF5C00', 
+    '#FF0000', ))
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    spectrum='Spectrum-1', outsideLimitsMode=SPECTRUM)
+session.viewports['Viewport: 1'].viewportAnnotationOptions.setValues(legend=ON)
+session.viewports['Viewport: 1'].lightOptions.lights[2].setValues(
+    enabled=False)
+session.viewports['Viewport: 1'].lightOptions.lights[2].setValues(enabled=True)
+session.viewports['Viewport: 1'].lightOptions.lights[3].setValues(enabled=True)
+session.viewports['Viewport: 1'].lightOptions.lights[4].setValues(enabled=True)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    spectrum='Rainbow')
+session.viewports['Viewport: 1'].lightOptions.lights[5].setValues(enabled=True)
+session.viewports['Viewport: 1'].lightOptions.lights[5].setValues(
+    enabled=False)
+session.viewports['Viewport: 1'].lightOptions.lights[6].setValues(enabled=True)
+session.viewports['Viewport: 1'].lightOptions.lights[6].setValues(
+    enabled=False)
+session.viewports['Viewport: 1'].lightOptions.lights[4].setValues(
+    enabled=False)
+session.viewports['Viewport: 1'].lightOptions.lights[3].setValues(
+    enabled=False)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    spectrum='Spectrum-1')
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].animationController.showFirstFrame()
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole1', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].animationController.showLastFrame()
+session.viewports['Viewport: 1'].animationController.showFirstFrame()
+session.viewports[session.currentViewportName].animationController.showFrame(
+    frame=0)
+session.viewports['Viewport: 1'].animationController.incrementFrame()
+session.viewports['Viewport: 1'].animationController.incrementFrame()
+session.viewports['Viewport: 1'].animationController.showLastFrame()
+session.viewports['Viewport: 1'].animationController.showFirstFrame()
+session.viewports['Viewport: 1'].animationController.setValues(
+    animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole2', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=29)
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=30)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole3', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=60)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole4', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.Spectrum(name="Spectrum-2", colors =('#00B9FF', '#00FFE7', '#00FF8B', 
+    '#00FF2E', '#2EFF00', '#8BFF00', '#E7FF00', '#FFB900', '#FF5C00', 
+    '#FF0000', '#F816FF', ))
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    spectrum='Spectrum-2')
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1174.81, 
+    farPlane=1813.66, width=64.6336, height=37.1439, viewOffsetX=51.0685, 
+    viewOffsetY=108.241)
+session.viewports['Viewport: 1'].view.fitView()
+session.Spectrum(name="Spectrum-2", colors =('#00B9FF', '#00FFE7', '#00FF8B', 
+    '#00FF2E', '#2EFF00', '#8BFF00', '#E7FF00', '#FFB900', '#FF5C00', 
+    '#FF0000', '#C30900', ))
+session.Spectrum(name="Spectrum-2", colors =('#00B9FF', '#00FFE7', '#00FF8B', 
+    '#00FF2E', '#2EFF00', '#8BFF00', '#E7FF00', '#FFB900', '#FF5C00', 
+    '#FF0000', '#C30900', '#000000', ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=0 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole1', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole2', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=30)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole3', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=60)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole4', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/whole5', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=9 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=0 )
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1161.46, 
+    farPlane=1827.01, width=167.453, height=96.2328, viewOffsetX=42.9938, 
+    viewOffsetY=92.7684)
+session.viewports['Viewport: 1'].viewportAnnotationOptions.setValues(
+    legend=OFF, compass=OFF)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/top1', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/top2', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=30)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/top3', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=60)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/top4', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/top5', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=9 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=0 )
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1166.64, 
+    farPlane=1821.83, width=127.832, height=73.4632, viewOffsetX=-71.7119, 
+    viewOffsetY=-27.452)
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1162.5, 
+    farPlane=1825.98, width=159.558, height=91.6954, viewOffsetX=-82.1164, 
+    viewOffsetY=-19.649)
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1160.08, 
+    farPlane=1828.39, width=177.958, height=102.27, viewOffsetX=-78.3999, 
+    viewOffsetY=-27.2976)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.viewports['Viewport: 1'].view.setValues(nearPlane=1159.73, 
+    farPlane=1828.75, width=177.904, height=102.239, viewOffsetX=-71.5647, 
+    viewOffsetY=-23.6492)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=0 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=0 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/bottom1', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=0, frame=10 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/bottom2', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=30)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/bottom3', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports[session.currentViewportName].odbDisplay.setFrame(
+    step='Step-2', frame=60)
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/bottom4', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=100 )
+session.printToFile(
+    fileName='/home/vtac/NODE_abaqus/cranium2/images_lightblue/bottom5', 
+    format=PNG, canvasObjects=(session.viewports['Viewport: 1'], ))
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(INVARIANT, 
+    'Max. Principal'), )
+#: Warning: Unable to access output database file: '/home/vtac/NODE_abaqus/cranium2/cranium2.odb'. Please check to see if the file exists and its permission settings.
+#* VisError: The current viewport is not associated with an output database 
+#* file. Requested operation cancelled.

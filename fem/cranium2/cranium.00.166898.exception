@@ -1,0 +1,58 @@
+<Description>
+      ABAQUS/standard rank 0 encountered a SEGMENTATION VIOLATION referencing location 0x10
+</Description>
+
+<Context>
+   ELEMENT LOOP
+</Context>
+
+<Phase>
+   Increment | Attempt | BulkVolumesDelete
+</Phase>
+
+<Callstack>
+   1) libABQSMABasShared.so      ! inline @ 0x00002845a3f9
+   2) libpthread.so.0            ! inline @ 0x000029af15f0
+   3) libpthread.so.0            ! pthread_mutex_destroy
+   4) libABQSMAAbuBasicUtils.so  ! thr_Mutex::~thr_Mutex
+   5) libABQSMAAncAdbModule.so   ! ElementDb::~ElementDb
+   6) libABQSMAAncAdbModule.so   ! adb_Root::~adb_Root
+   7) libABQSMAAncAdbModule.so   ! adb_Manager::Close
+   8) libABQSMAStaCore.so        ! std_AdbShutter::Shutdown
+   9) libABQSMAAspSupport.so     ! bcu_ShutdownRequests::Process
+  10) libABQSMAAspSupport.so     ! bcu_exit
+  11) libABQSMAAspSupport.so     ! xitjob
+  12) libABQSMAAspSupport.so     ! abqerr1
+  13) libABQSMAAspSupport.so     ! abqerrC
+  14) libABQSMAIomCore.so        ! admC_Folder_Binary::WriteToDisk
+  15) libABQSMAIomCore.so        ! admC_Folder_Binary::WriteItem
+  16) libABQSMAIomCore.so        ! admC_MemoryItem::Flush
+  17) libABQSMAIomCore.so        ! admC_BufferManager_New::Flush
+  18) libABQSMAIomCore.so        ! admC_Package::Flush
+  19) libABQSMAIomCore.so        ! admC_Package::~admC_Package
+  20) libABQSMAIomCore.so        ! admC_Pkg_NewMultiThr::~admC_Pkg_NewMultiThr
+</Callstack>
+
+<Memory>
+   <Current>            3957 MB </Current>
+   <Resident>           1315 MB </Resident>
+   <Physical>          96256 MB </Physical>
+   <Limit>             77004 MB </Limit>
+   <Accessible>        96256 MB </Accessible>
+   <Allocator>            DL    </Allocator>
+   <HugePages>        always    </HugePages>
+</Memory>
+
+<Directories>
+  <current> /scratch/brown/vtac/vtac_cranium_166665 </current> 
+    <indir> /home/vtac/NODE_abaqus/cranium </indir> 
+   <outdir> /home/vtac/NODE_abaqus/cranium </outdir>
+   <tmpdir> /scratch/brown/vtac/vtac_cranium_166665 </tmpdir>
+</Directories>
+
+<Installation>
+     <Version> 2020 6.20-1 </Version>
+       <Build>   2019_09_13-13.49.31 163176 </Build>
+  <Executable> /apps/cent7/abaqus/abaqus-2020/EstProducts/2020/linux_a64/code/bin/standard </Executable>
+</Installation>
+

@@ -1,0 +1,47 @@
+Analysis initiated from SIMULIA established products
+Abaqus JOB cranium
+Abaqus 2020
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 17 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2241 out of 2978 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Tue 18 Jan 2022 10:29:00 PM EST
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(26): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(359): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+GNU ld version 2.27-41.base.el7_7.1
+End Linking Abaqus/Standard User Subroutines
+Tue 18 Jan 2022 10:29:04 PM EST
+Begin Analysis Input File Processor
+Tue 18 Jan 2022 10:29:04 PM EST
+Run pre
+Tue 18 Jan 2022 10:29:20 PM EST
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Tue 18 Jan 2022 10:29:20 PM EST
+Run standard
+forrtl: Stale file handle
+forrtl: severe (38): error during write, unit 7, file /home/vtac/NODE_abaqus/cranium/cranium.msg
+terminate called after throwing an instance of 'utl_FileExceptionRead'
+
+*** ABAQUS/standard rank 0 terminated by signal 6 (Aborted)
+
+*** ERROR CATEGORY:  ELEMENT LOOP
+
+Tue 18 Jan 2022 10:35:05 PM EST
+Abaqus Error: Abaqus/Standard Analysis exited with an error - Please see the 
+message file for possible error messages if the file exists.
+Begin SIM Wrap-up
+Tue 18 Jan 2022 10:35:05 PM EST
+Run SMASimUtility
+Tue 18 Jan 2022 10:35:05 PM EST
+End SIM Wrap-up
+Abaqus/Analysis exited with errors

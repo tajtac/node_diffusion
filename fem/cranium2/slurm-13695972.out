@@ -1,0 +1,38 @@
+Analysis initiated from SIMULIA established products
+Abaqus JOB cranium2
+Abaqus 2020
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 19 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2346 out of 2978 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Sat 22 Jan 2022 09:44:42 AM EST
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(26): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(359): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+GNU ld version 2.27-41.base.el7_7.1
+End Linking Abaqus/Standard User Subroutines
+Sat 22 Jan 2022 09:44:46 AM EST
+Begin Analysis Input File Processor
+Sat 22 Jan 2022 09:44:46 AM EST
+Run pre
+Sat 22 Jan 2022 09:45:02 AM EST
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Sat 22 Jan 2022 09:45:02 AM EST
+Run standard
+Sat 22 Jan 2022 10:15:42 AM EST
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Sat 22 Jan 2022 10:15:42 AM EST
+Run SMASimUtility
+Sat 22 Jan 2022 10:15:43 AM EST
+End SIM Wrap-up
+Abaqus JOB cranium2 COMPLETED
