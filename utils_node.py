@@ -109,14 +109,13 @@ NODE_vmap = vmap(NODE, in_axes=(0, None), out_axes=0)
 
 
 class NODE_model(): #isotropic
-    def __init__(self, params, normalization):
+    def __init__(self, params):
         NODE_weights, self.Psi1_bias, self.Psi2_bias = params
         self.params_I1, self.params_I2 = NODE_weights
-        self.I1_factor, self.I2_factor = normalization
         
     def Psi1(self, I1, I2):
-        I1 = (I1-3.0)/self.I1_factor
-        I2 = (I2-3.0)/self.I2_factor
+        I1 = I1-3.0
+        I2 = I2-3.0
         Psi_1 = NODE(I1, self.params_I1)
         # a = jax.nn.sigmoid(self.alpha)
         # Psi_1_2 = NODE(a*I1 + (1.0-a)*I2, self.params_1_2)
@@ -124,8 +123,8 @@ class NODE_model(): #isotropic
         return Psi_1 + a*Psi_1_2 + jnp.exp(self.Psi1_bias)
     
     def Psi2(self, I1, I2):
-        I1 = (I1-3.0)/self.I1_factor
-        I2 = (I2-3.0)/self.I2_factor
+        I1 = I1-3.0
+        I2 = I2-3.0
         Psi_2 = NODE(I2, self.params_I2)
         # a = jax.nn.sigmoid(self.alpha)
         # Psi_1_2 = NODE(a*I1 + (1.0-a)*I2, self.params_1_2)
@@ -134,15 +133,14 @@ class NODE_model(): #isotropic
     
 
 class NODE_model_aniso(): #anisotropic
-    def __init__(self, params, normalization):
+    def __init__(self, params):
         NODE_weights, self.theta, self.Psi1_bias, self.Psi2_bias, self.alpha = params
         self.params_I1, self.params_I2, self.params_1_v, self.params_1_w, self.params_v_w = NODE_weights
-        self.I1_factor, self.I2_factor, self.Iv_factor, self.Iw_factor = normalization
     
     def Psi1(self, I1, I2, Iv, Iw):
-        I1 = (I1-3.0)/self.I1_factor
-        Iv = (Iv-1.0)/self.Iv_factor
-        Iw = (Iw-1.0)/self.Iw_factor
+        I1 = I1-3.0
+        Iv = Iv-1.0
+        Iw = Iw-1.0
         Psi_1 = NODE(I1, self.params_I1)
         a = jax.nn.sigmoid(self.alpha[0])
         Psi_v_1 = NODE(a*I1 + (1.0-a)*Iv, self.params_1_v)*a
@@ -153,14 +151,14 @@ class NODE_model_aniso(): #anisotropic
         return Psi_1 + Psi_v_1 + Psi_w_1 + jnp.exp(self.Psi1_bias)
     
     def Psi2(self, I1, I2, Iv, Iw):
-        I2 = (I2-3.0)/self.I2_factor
+        I2 = I2-3.0
         Psi_2 = NODE(I2, self.params_I2)
         return Psi_2 + jnp.exp(self.Psi2_bias)
     
     def Psiv(self, I1, I2, Iv, Iw):
-        I1 = (I1-3.0)/self.I1_factor
-        Iv = (Iv-1.0)/self.Iv_factor
-        Iw = (Iw-1.0)/self.Iw_factor
+        I1 = I1-3.0
+        Iv = Iv-1.0
+        Iw = Iw-1.0
         a = jax.nn.sigmoid(self.alpha[0])
         Psi_1_v = NODE(a*I1 + (1.0-a)*Iv, self.params_1_v)*(1.0-a)
         Psi_1_v = jnp.maximum(Psi_1_v, 0.0)
@@ -170,9 +168,9 @@ class NODE_model_aniso(): #anisotropic
         return Psi_1_v + Psi_w_v
     
     def Psiw(self, I1, I2, Iv, Iw):
-        I1 = (I1-3.0)/self.I1_factor
-        Iv = (Iv-1.0)/self.Iv_factor
-        Iw = (Iw-1.0)/self.Iw_factor
+        I1 = I1-3.0
+        Iv = Iv-1.0
+        Iw = Iw-1.0
         a = jax.nn.sigmoid(self.alpha[1])
         Psi_1_w = NODE(a*I1 + (1.0-a)*Iw, self.params_1_w)*(1.0-a)
         Psi_1_w = jnp.maximum(Psi_1_w, 0.0)

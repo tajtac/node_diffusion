@@ -1,0 +1,63 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.ModelFromInputFile(inputFileName=
+    '/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted.inp', name=
+    'PP_fine_filleted')
+mdb.models['PP_fine_filleted'].rootAssembly.Instance(dependent=ON, name=
+    'PART-1-1', part=mdb.models['PP_fine_filleted'].parts['PART-1'])
+mdb.models['PP_fine_filleted'].StaticStep(name='Step-1', nlgeom=ON, previous=
+    'Initial')
+mdb.models['PP_fine_filleted'].rootAssembly.Set(name='BottomLeftCorner', nodes=
+    mdb.models['PP_fine_filleted'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#0:46 #100000 ]', ), ))
+mdb.models['PP_fine_filleted'].EncastreBC(createStepName='Initial', localCsys=
+    None, name='BottomLeftCornerEncastre', region=
+    mdb.models['PP_fine_filleted'].rootAssembly.sets['BottomLeftCorner'])
+mdb.models['PP_fine_filleted'].rootAssembly.Set(name='BottomSurface', nodes=
+    mdb.models['PP_fine_filleted'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#0:42 #800 #20001 #10002 #80002 #1c0010 #3c ]', ), ))
+mdb.models['PP_fine_filleted'].YsymmBC(createStepName='Initial', localCsys=None
+    , name='BottomSurfaceYsymm', region=
+    mdb.models['PP_fine_filleted'].rootAssembly.sets['BottomSurface'])
+mdb.models['PP_fine_filleted'].Gravity(comp2=10.0, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', name='EntireMeshGravity')
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='PP_fine_filleted', modelPrint=OFF
+    , multiprocessingMode=DEFAULT, name='PP_fine_filleted', 
+    nodalOutputPrecision=SINGLE, numCpus=1, numGPUs=0, queue=None, 
+    resultsFormat=ODB, scratch='', type=ANALYSIS, userSubroutine='', waitHours=
+    0, waitMinutes=0)
+mdb.models['PP_fine_filleted'].Material(name='UANISOHYPER-MAT')
+mdb.models['PP_fine_filleted'].materials['UANISOHYPER-MAT'].Hyperelastic(
+    anisotropicType=USER_DEFINED, formulation=INVARIANT, localDirections=2, 
+    materialType=ANISOTROPIC, moduliTimeScale=INSTANTANEOUS, properties=1, 
+    table=((999.0, ), ))
+mdb.models['PP_fine_filleted'].HomogeneousSolidSection(material=
+    'UANISOHYPER-MAT', name='Section-1', thickness=None)
+mdb.models['PP_fine_filleted'].parts['PART-1'].Set(elements=
+    mdb.models['PP_fine_filleted'].parts['PART-1'].elements.getSequenceFromMask(
+    mask=('[#ffffffff:92 #ffffff ]', ), ), name='Set-1')
+mdb.models['PP_fine_filleted'].parts['PART-1'].SectionAssignment(offset=0.0, 
+    offsetField='', offsetType=MIDDLE_SURFACE, region=
+    mdb.models['PP_fine_filleted'].parts['PART-1'].sets['Set-1'], sectionName=
+    'Section-1', thicknessAssignment=FROM_SECTION)
+mdb.models['PP_fine_filleted'].parts['PART-1'].MaterialOrientation(
+    additionalRotationType=ROTATION_NONE, axis=AXIS_3, fieldName='', localCsys=
+    None, orientationType=GLOBAL, region=Region(
+    elements=mdb.models['PP_fine_filleted'].parts['PART-1'].elements.getSequenceFromMask(
+    mask=('[#ffffffff:92 #ffffff ]', ), )), stackDirection=STACK_3)
+del mdb.models['Model-1']
+# Save by vtac on 2023_06_27-14.48.49; build 2020 2019_09_13-13.49.31 163176

@@ -1,0 +1,404 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2020 replay file
+# Internal Version: 2019_09_13-13.49.31 163176
+# Run by vtac on Mon Jun 26 10:32:32 2023
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=272.333343505859, 
+    height=190.441253662109)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+openMdb(pathName='/home/vtac/NODE_diffusion/fem/square/square_unia.cae')
+#: The model database "/home/vtac/NODE_diffusion/fem/square/square_unia.cae" has been opened.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+p = mdb.models['square'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+a = mdb.models['square'].rootAssembly
+a.regenerate()
+a = mdb.models['square'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+a = mdb.models['square'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(loads=ON, bcs=ON, 
+    predefinedFields=ON, connectors=ON, optimizationTasks=OFF, 
+    geometricRestrictions=OFF, stopConditions=OFF)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+mdb.models.changeKey(fromName='square', toName='square-unia')
+a = mdb.models['square-unia'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.Model(name='square-equi', objectToCopy=mdb.models['square-unia'])
+#: The model "square-equi" has been created.
+a = mdb.models['square-equi'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+a = mdb.models['square-equi'].rootAssembly
+e1 = a.instances['Part-1-1'].edges
+edges1 = e1.getSequenceFromMask(mask=('[#1 ]', ), )
+region = a.Set(edges=edges1, name='Set-4')
+mdb.models['square-equi'].YsymmBC(name='BC-4', createStepName='Initial', 
+    region=region, localCsys=None)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+mdb.models['square-equi'].boundaryConditions['BC-3'].setValues(u1=12.5)
+a = mdb.models['square-equi'].rootAssembly
+e1 = a.instances['Part-1-1'].edges
+edges1 = e1.getSequenceFromMask(mask=('[#4 ]', ), )
+region = a.Set(edges=edges1, name='Set-5')
+mdb.models['square-equi'].DisplacementBC(name='BC-5', createStepName='Step-1', 
+    region=region, u1=UNSET, u2=12.5, ur3=UNSET, amplitude=UNSET, fixed=OFF, 
+    distributionType=UNIFORM, fieldName='', localCsys=None)
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].view.fitView()
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square_unia.cae".
+mdb.Model(name='square-offx', objectToCopy=mdb.models['square-equi'])
+#: The model "square-offx" has been created.
+a = mdb.models['square-offx'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square-offx'].boundaryConditions['BC-3'].setValues(u1=5.9)
+mdb.saveAs(pathName='/home/vtac/NODE_diffusion/fem/square/square.cae')
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+mdb.Model(name='square-offy', objectToCopy=mdb.models['square-offx'])
+#: The model "square-offy" has been created.
+a = mdb.models['square-offy'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square-offy'].boundaryConditions['BC-5'].setValues(u2=5.9)
+mdb.models['square-offy'].boundaryConditions['BC-3'].setValues(u1=12.5)
+a = mdb.models['square-unia'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+mdb.models['square-unia'].rootAssembly.sets.changeKey(fromName='Set-1', 
+    toName='set-leftsurface')
+mdb.models['square-unia'].rootAssembly.sets.changeKey(fromName='Set-2', 
+    toName='set-BottomLeftEdge')
+mdb.models['square-unia'].rootAssembly.sets.changeKey(
+    fromName='set-leftsurface', toName='set-LeftSurface')
+mdb.models['square-unia'].rootAssembly.sets.changeKey(fromName='Set-3', 
+    toName='set-RightSurface')
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+a = mdb.models['square-offy'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-1', 
+    toName='set-LeftSurface')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-2', 
+    toName='set-BottomLeftEdge')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-3', 
+    toName='set-RightSurface')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-4', 
+    toName='set-BottomSurface')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-5', 
+    toName='set-TopSurface')
+a = mdb.models['square-offx'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-1', 
+    toName='set-LeftSurface')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-2', 
+    toName='set-BottomLeftEdge')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-3', 
+    toName='set-RightSurface')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-4', 
+    toName='set-BottomSurface')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-5', 
+    toName='set-TopSurface')
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+a = mdb.models['square-equi'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-1', 
+    toName='set-LeftSurface')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-2', 
+    toName='set-BottomLeftEdge')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-3', 
+    toName='set-RightSurface')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-4', 
+    toName='set-BottomSurface')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-5', 
+    toName='set-TopSurface')
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(loads=OFF, bcs=OFF, 
+    predefinedFields=OFF, connectors=OFF)
+del mdb.jobs['square_uni_tens']
+mdb.Job(name='square-equi', model='square-equi', description='', type=ANALYSIS, 
+    atTime=None, waitMinutes=0, waitHours=0, queue=None, memory=90, 
+    memoryUnits=PERCENTAGE, getMemoryFromAnalysis=True, 
+    explicitPrecision=SINGLE, nodalOutputPrecision=SINGLE, echoPrint=OFF, 
+    modelPrint=OFF, contactPrint=OFF, historyPrint=OFF, userSubroutine='', 
+    scratch='', resultsFormat=ODB, multiprocessingMode=DEFAULT, numCpus=1, 
+    numGPUs=0)
+mdb.Job(name='square-offx', model='square-offx', description='', type=ANALYSIS, 
+    atTime=None, waitMinutes=0, waitHours=0, queue=None, memory=90, 
+    memoryUnits=PERCENTAGE, getMemoryFromAnalysis=True, 
+    explicitPrecision=SINGLE, nodalOutputPrecision=SINGLE, echoPrint=OFF, 
+    modelPrint=OFF, contactPrint=OFF, historyPrint=OFF, userSubroutine='', 
+    scratch='', resultsFormat=ODB, multiprocessingMode=DEFAULT, numCpus=1, 
+    numGPUs=0)
+mdb.Job(name='square-offy', model='square-offy', description='', type=ANALYSIS, 
+    atTime=None, waitMinutes=0, waitHours=0, queue=None, memory=90, 
+    memoryUnits=PERCENTAGE, getMemoryFromAnalysis=True, 
+    explicitPrecision=SINGLE, nodalOutputPrecision=SINGLE, echoPrint=OFF, 
+    modelPrint=OFF, contactPrint=OFF, historyPrint=OFF, userSubroutine='', 
+    scratch='', resultsFormat=ODB, multiprocessingMode=DEFAULT, numCpus=1, 
+    numGPUs=0)
+mdb.Job(name='square-unia', model='square-unia', description='', type=ANALYSIS, 
+    atTime=None, waitMinutes=0, waitHours=0, queue=None, memory=90, 
+    memoryUnits=PERCENTAGE, getMemoryFromAnalysis=True, 
+    explicitPrecision=SINGLE, nodalOutputPrecision=SINGLE, echoPrint=OFF, 
+    modelPrint=OFF, contactPrint=OFF, historyPrint=OFF, userSubroutine='', 
+    scratch='', resultsFormat=ODB, multiprocessingMode=DEFAULT, numCpus=1, 
+    numGPUs=0)
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(loads=ON, bcs=ON, 
+    predefinedFields=ON, connectors=ON)
+del mdb.models['square-equi'].boundaryConditions['BC-1']
+del mdb.models['square-equi'].boundaryConditions['BC-2']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+del mdb.models['square-equi'].boundaryConditions['BC-3']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+del mdb.models['square-equi'].boundaryConditions['BC-4']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+del mdb.models['square-equi'].boundaryConditions['BC-5']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+a = mdb.models['square-equi'].rootAssembly
+region = a.sets['set-BottomLeftEdge']
+mdb.models['square-equi'].EncastreBC(name='BottomLeftEdgeEncastre', 
+    createStepName='Initial', region=region, localCsys=None)
+a = mdb.models['square-equi'].rootAssembly
+region = a.sets['set-LeftSurface']
+mdb.models['square-equi'].XsymmBC(name='LeftSurfaceXsymm', 
+    createStepName='Initial', region=region, localCsys=None)
+a = mdb.models['square-equi'].rootAssembly
+region = a.sets['set-BottomSurface']
+mdb.models['square-equi'].YsymmBC(name='BottomSurfaceYsymm', 
+    createStepName='Initial', region=region, localCsys=None)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+a = mdb.models['square-equi'].rootAssembly
+region = a.sets['set-RightSurface']
+mdb.models['square-equi'].DisplacementBC(name='RightSurfaceDisp', 
+    createStepName='Step-1', region=region, u1=12.5, u2=UNSET, ur3=UNSET, 
+    amplitude=UNSET, fixed=OFF, distributionType=UNIFORM, fieldName='', 
+    localCsys=None)
+a = mdb.models['square-equi'].rootAssembly
+region = a.sets['set-TopSurface']
+mdb.models['square-equi'].DisplacementBC(name='TopSurfaceDisp', 
+    createStepName='Step-1', region=region, u1=UNSET, u2=12.5, ur3=UNSET, 
+    amplitude=UNSET, fixed=OFF, distributionType=UNIFORM, fieldName='', 
+    localCsys=None)
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+a = mdb.models['square-offx'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+del mdb.models['square-offx'].boundaryConditions['BC-1']
+del mdb.models['square-offx'].boundaryConditions['BC-2']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+del mdb.models['square-offx'].boundaryConditions['BC-3']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+del mdb.models['square-offx'].boundaryConditions['BC-4']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+del mdb.models['square-offx'].boundaryConditions['BC-5']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+a = mdb.models['square-offx'].rootAssembly
+region = a.sets['set-BottomLeftEdge']
+mdb.models['square-offx'].EncastreBC(name='BottomLeftEdgeEncastre', 
+    createStepName='Initial', region=region, localCsys=None)
+a = mdb.models['square-offx'].rootAssembly
+region = a.sets['set-LeftSurface']
+mdb.models['square-offx'].XsymmBC(name='LeftSurfaceXsymm', 
+    createStepName='Initial', region=region, localCsys=None)
+a = mdb.models['square-offx'].rootAssembly
+region = a.sets['set-BottomSurface']
+mdb.models['square-offx'].YsymmBC(name='BottomSurfaceYsymm', 
+    createStepName='Initial', region=region, localCsys=None)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+a = mdb.models['square-offx'].rootAssembly
+region = a.sets['set-RightSurface']
+mdb.models['square-offx'].DisplacementBC(name='RightSurfaceDisp', 
+    createStepName='Step-1', region=region, u1=5.9, u2=UNSET, ur3=UNSET, 
+    amplitude=UNSET, fixed=OFF, distributionType=UNIFORM, fieldName='', 
+    localCsys=None)
+a = mdb.models['square-offx'].rootAssembly
+region = a.sets['set-TopSurface']
+mdb.models['square-offx'].DisplacementBC(name='TopSurfaceDisp', 
+    createStepName='Step-1', region=region, u1=UNSET, u2=12.5, ur3=UNSET, 
+    amplitude=UNSET, fixed=OFF, distributionType=UNIFORM, fieldName='', 
+    localCsys=None)
+mdb.models['square-offx'].rootAssembly.sets.changeKey(
+    fromName='set-BottomLeftEdge', toName='set-BottomLeftVert')
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+a = mdb.models['square-offx'].rootAssembly
+region = a.sets['set-BottomLeftVert']
+mdb.models['square-offx'].boundaryConditions['BottomLeftEdgeEncastre'].setValues(
+    region=region)
+mdb.models['square-offx'].boundaryConditions.changeKey(
+    fromName='BottomLeftEdgeEncastre', toName='BottomLeftVertEncastre')
+a = mdb.models['square-equi'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square-equi'].rootAssembly.sets.changeKey(
+    fromName='set-BottomLeftEdge', toName='set-BottomLeftVert')
+a = mdb.models['square-equi'].rootAssembly
+region = a.sets['set-BottomLeftVert']
+mdb.models['square-equi'].boundaryConditions['BottomLeftEdgeEncastre'].setValues(
+    region=region)
+mdb.models['square-equi'].boundaryConditions.changeKey(
+    fromName='BottomLeftEdgeEncastre', toName='BottomLeftVertEncastre')
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+a = mdb.models['square-offy'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square-offy'].rootAssembly.sets.changeKey(
+    fromName='set-BottomLeftEdge', toName='set-BottomLeftVert')
+del mdb.models['square-offy'].boundaryConditions['BC-1']
+del mdb.models['square-offy'].boundaryConditions['BC-2']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+del mdb.models['square-offy'].boundaryConditions['BC-3']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+del mdb.models['square-offy'].boundaryConditions['BC-4']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+del mdb.models['square-offy'].boundaryConditions['BC-5']
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Initial')
+a = mdb.models['square-offy'].rootAssembly
+region = a.sets['set-BottomLeftVert']
+mdb.models['square-offy'].EncastreBC(name='BottomLeftVertEncastre', 
+    createStepName='Initial', region=region, localCsys=None)
+a = mdb.models['square-offy'].rootAssembly
+region = a.sets['set-LeftSurface']
+mdb.models['square-offy'].XsymmBC(name='LeftSurfaceXsymm', 
+    createStepName='Initial', region=region, localCsys=None)
+a = mdb.models['square-offy'].rootAssembly
+region = a.sets['set-BottomSurface']
+mdb.models['square-offy'].YsymmBC(name='BottomSurfaceYsymm', 
+    createStepName='Initial', region=region, localCsys=None)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+a = mdb.models['square-offy'].rootAssembly
+region = a.sets['set-RightSurface']
+mdb.models['square-offy'].DisplacementBC(name='RightSurfaceDisp', 
+    createStepName='Step-1', region=region, u1=12.5, u2=UNSET, ur3=UNSET, 
+    amplitude=UNSET, fixed=OFF, distributionType=UNIFORM, fieldName='', 
+    localCsys=None)
+a = mdb.models['square-offy'].rootAssembly
+region = a.sets['set-TopSurface']
+mdb.models['square-offy'].DisplacementBC(name='TopSurfaceDisp', 
+    createStepName='Step-1', region=region, u1=UNSET, u2=5.9, ur3=UNSET, 
+    amplitude=UNSET, fixed=OFF, distributionType=UNIFORM, fieldName='', 
+    localCsys=None)
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(loads=OFF, bcs=OFF, 
+    predefinedFields=OFF, connectors=OFF)
+mdb.jobs['square-equi'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square-equi.inp".
+mdb.jobs['square-offx'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square-offx.inp".
+mdb.jobs['square-offy'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square-offy.inp".
+mdb.save()
+#: The model database has been saved to "/home/vtac/NODE_diffusion/fem/square/square.cae".
+mdb.jobs.changeKey(fromName='square-equi', toName='square_equi')
+mdb.jobs.changeKey(fromName='square-offx', toName='square_offx')
+mdb.jobs.changeKey(fromName='square-offy', toName='square_offy')
+mdb.jobs.changeKey(fromName='square-unia', toName='square_unia')
+mdb.jobs['square_equi'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square_equi.inp".
+mdb.jobs['square_offx'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square_offx.inp".
+mdb.jobs['square_offy'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square_offy.inp".
+session.viewports['Viewport: 1'].partDisplay.setValues(mesh=ON)
+session.viewports['Viewport: 1'].partDisplay.meshOptions.setValues(
+    meshTechnique=ON)
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=OFF)
+p1 = mdb.models['square-equi'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p1)
+p = mdb.models['square-equi'].parts['Part-1']
+f = p.faces
+pickedRegions = f.getSequenceFromMask(mask=('[#1 ]', ), )
+p.deleteMesh(regions=pickedRegions)
+p = mdb.models['square-equi'].parts['Part-1']
+f = p.faces
+pickedRegions = f.getSequenceFromMask(mask=('[#1 ]', ), )
+p.setMeshControls(regions=pickedRegions, elemShape=TRI)
+p1 = mdb.models['square-offx'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p1)
+del mdb.models['square-offx']
+p = mdb.models['square-unia'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+p1 = mdb.models['square-offy'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p1)
+del mdb.models['square-offy']
+p = mdb.models['square-unia'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+del mdb.models['square-unia']
+p = mdb.models['square-equi'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+mdb.models.changeKey(fromName='square-equi', toName='square_equi')
+p = mdb.models['square_equi'].parts['Part-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+p = mdb.models['square_equi'].parts['Part-1']
+p.generateMesh()
+a = mdb.models['square_equi'].rootAssembly
+a.regenerate()
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+del mdb.jobs['square_equi']
+mdb.Job(name='square_equi', model='square_equi', description='', type=ANALYSIS, 
+    atTime=None, waitMinutes=0, waitHours=0, queue=None, memory=90, 
+    memoryUnits=PERCENTAGE, getMemoryFromAnalysis=True, 
+    explicitPrecision=SINGLE, nodalOutputPrecision=SINGLE, echoPrint=OFF, 
+    modelPrint=OFF, contactPrint=OFF, historyPrint=OFF, userSubroutine='', 
+    scratch='', resultsFormat=ODB, multiprocessingMode=DEFAULT, numCpus=1, 
+    numGPUs=0)
+mdb.jobs['square_equi'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square_equi.inp".
+mdb.Model(name='square_offx', objectToCopy=mdb.models['square_equi'])
+#: The model "square_offx" has been created.
+a = mdb.models['square_offx'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(step='Step-1')
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(loads=ON, bcs=ON, 
+    predefinedFields=ON, connectors=ON)
+mdb.models['square_offx'].boundaryConditions['RightSurfaceDisp'].setValues(
+    u1=5.9)
+mdb.Model(name='square_offy', objectToCopy=mdb.models['square_offx'])
+#: The model "square_offy" has been created.
+a = mdb.models['square_offy'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+mdb.models['square_offy'].boundaryConditions['RightSurfaceDisp'].setValues(
+    u1=12.5)
+mdb.models['square_offy'].boundaryConditions['TopSurfaceDisp'].setValues(
+    u2=5.9)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(loads=OFF, bcs=OFF, 
+    predefinedFields=OFF, connectors=OFF)
+del mdb.jobs['square_offx']
+del mdb.jobs['square_offy']
+del mdb.jobs['square_unia']
+mdb.Job(name='square_offx', model='square_offx', description='', type=ANALYSIS, 
+    atTime=None, waitMinutes=0, waitHours=0, queue=None, memory=90, 
+    memoryUnits=PERCENTAGE, getMemoryFromAnalysis=True, 
+    explicitPrecision=SINGLE, nodalOutputPrecision=SINGLE, echoPrint=OFF, 
+    modelPrint=OFF, contactPrint=OFF, historyPrint=OFF, userSubroutine='', 
+    scratch='', resultsFormat=ODB, multiprocessingMode=DEFAULT, numCpus=1, 
+    numGPUs=0)
+mdb.Job(name='square_offy', model='square_offy', description='', type=ANALYSIS, 
+    atTime=None, waitMinutes=0, waitHours=0, queue=None, memory=90, 
+    memoryUnits=PERCENTAGE, getMemoryFromAnalysis=True, 
+    explicitPrecision=SINGLE, nodalOutputPrecision=SINGLE, echoPrint=OFF, 
+    modelPrint=OFF, contactPrint=OFF, historyPrint=OFF, userSubroutine='', 
+    scratch='', resultsFormat=ODB, multiprocessingMode=DEFAULT, numCpus=1, 
+    numGPUs=0)
+mdb.jobs['square_offx'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square_offx.inp".
+mdb.jobs['square_offy'].writeInput(consistencyChecking=OFF)
+#: The job input file has been written to "square_offy.inp".

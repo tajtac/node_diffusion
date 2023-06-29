@@ -1,0 +1,550 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__profile__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__profile__'].rectangle(point1=(0.0, 0.0), 
+    point2=(32.5, 37.5))
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].ConstrainedSketch(name='__profile__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__profile__'].rectangle(point1=(0.0, 0.0), 
+    point2=(50.0, 50.0))
+mdb.models['Model-1'].Part(dimensionality=TWO_D_PLANAR, name='Part-1', type=
+    DEFORMABLE_BODY)
+mdb.models['Model-1'].parts['Part-1'].BaseShell(sketch=
+    mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].Material(name='UANISOHYPER-MAT')
+mdb.models['Model-1'].materials['UANISOHYPER-MAT'].Hyperelastic(
+    anisotropicType=USER_DEFINED, formulation=INVARIANT, materialType=
+    ANISOTROPIC, moduliTimeScale=INSTANTANEOUS, properties=3, table=((999.0, 
+    999.0, 999.0), ))
+mdb.models['Model-1'].HomogeneousSolidSection(material='UANISOHYPER-MAT', name=
+    'Section-1', thickness=None)
+mdb.models['Model-1'].parts['Part-1'].Set(faces=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#1 ]', 
+    ), ), name='Set-1')
+mdb.models['Model-1'].parts['Part-1'].SectionAssignment(offset=0.0, 
+    offsetField='', offsetType=MIDDLE_SURFACE, region=
+    mdb.models['Model-1'].parts['Part-1'].sets['Set-1'], sectionName=
+    'Section-1', thicknessAssignment=FROM_SECTION)
+mdb.models['Model-1'].rootAssembly.DatumCsysByDefault(CARTESIAN)
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Part-1-1', 
+    part=mdb.models['Model-1'].parts['Part-1'])
+mdb.models['Model-1'].rootAssembly.Set(edges=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].edges.getSequenceFromMask(
+    ('[#8 ]', ), ), name='Set-1')
+mdb.models['Model-1'].XsymmBC(createStepName='Initial', localCsys=None, name=
+    'BC-1', region=mdb.models['Model-1'].rootAssembly.sets['Set-1'])
+mdb.models['Model-1'].rootAssembly.Set(name='Set-2', vertices=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].vertices.getSequenceFromMask(
+    ('[#1 ]', ), ))
+mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Initial', 
+    distributionType=UNIFORM, fieldName='', localCsys=None, name='BC-2', 
+    region=mdb.models['Model-1'].rootAssembly.sets['Set-2'], u1=SET, u2=SET, 
+    ur3=SET)
+mdb.openAuxMdb(pathName='/home/vtac/umat/GOH_all.cae')
+mdb.copyAuxMdbModel(fromName='uniaxial_S111S1_GOH', toName=
+    'uniaxial_S111S1_GOH')
+mdb.closeAuxMdb()
+mdb.models['Model-1'].StaticStep(name='Step-1', previous='Initial')
+mdb.models['Model-1'].steps['Step-1'].setValues(nlgeom=ON)
+mdb.models['Model-1'].rootAssembly.Set(edges=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].edges.getSequenceFromMask(
+    ('[#2 ]', ), ), name='Set-3')
+mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None, name=
+    'BC-3', region=mdb.models['Model-1'].rootAssembly.sets['Set-3'], u1=10.0, 
+    u2=UNSET, ur3=UNSET)
+mdb.models.changeKey(fromName='Model-1', toName='uniaxial_2D')
+del mdb.models['uniaxial_S111S1_GOH']
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='uniaxial_2D', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='uniaxial_2D', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.models['uniaxial_2D'].parts['Part-1'].seedPart(deviationFactor=0.1, 
+    minSizeFactor=0.1, size=1.25)
+mdb.models['uniaxial_2D'].parts['Part-1'].generateMesh()
+mdb.models['uniaxial_2D'].parts['Part-1'].generateMesh()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['uniaxial_2D'].rootAssembly.regenerate()
+mdb.models['uniaxial_2D'].parts['Part-1'].MaterialOrientation(
+    additionalRotationType=ROTATION_NONE, axis=AXIS_3, fieldName='', localCsys=
+    None, orientationType=GLOBAL, region=Region(
+    faces=mdb.models['uniaxial_2D'].parts['Part-1'].faces.getSequenceFromMask(
+    mask=('[#1 ]', ), )), stackDirection=STACK_3)
+mdb.models['uniaxial_2D'].materials['UANISOHYPER-MAT'].hyperelastic.setValues(
+    localDirections=2, table=((999.0, 999.0, 999.0), ))
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['uniaxial_2D'].rootAssembly.regenerate()
+mdb.models['uniaxial_2D'].parts['Part-1'].setElementType(elemTypes=(ElemType(
+    elemCode=CPS4, elemLibrary=STANDARD), ElemType(elemCode=CPS3, 
+    elemLibrary=STANDARD)), regions=(
+    mdb.models['uniaxial_2D'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1 ]', ), ), ))
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['uniaxial_2D'].rootAssembly.regenerate()
+mdb.models['uniaxial_2D'].parts['Part-1'].deleteMesh()
+mdb.models['uniaxial_2D'].parts['Part-1'].seedPart(deviationFactor=0.1, 
+    minSizeFactor=0.1, size=2.0)
+mdb.models['uniaxial_2D'].parts['Part-1'].generateMesh()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models.changeKey(fromName='uniaxial_2D', toName='uniaxial_2D_L_coarse')
+del mdb.jobs['uniaxial_2D']
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='uniaxial_2D_L_coarse', 
+    modelPrint=OFF, multiprocessingMode=DEFAULT, name='uniaxial_2D_L_coarse', 
+    nodalOutputPrecision=SINGLE, numCpus=1, numGPUs=0, queue=None, 
+    resultsFormat=ODB, scratch='', type=ANALYSIS, userSubroutine='', waitHours=
+    0, waitMinutes=0)
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models.changeKey(fromName='uniaxial_2D_L_coarse', toName='square')
+mdb.models['square'].parts['Part-1'].setElementType(elemTypes=(ElemType(
+    elemCode=CPS4, elemLibrary=STANDARD), ElemType(elemCode=CPS3, 
+    elemLibrary=STANDARD, secondOrderAccuracy=OFF, distortionControl=DEFAULT)), 
+    regions=(mdb.models['square'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1 ]', ), ), ))
+mdb.models['square'].parts['Part-1'].generateMesh()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['square'].rootAssembly.regenerate()
+mdb.jobs.changeKey(fromName='uniaxial_2D_L_coarse', toName='square_unia')
+del mdb.jobs['square_unia']
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square_unia', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.models['square'].parts['Part-1'].deleteMesh()
+mdb.models['square'].parts['Part-1'].setElementType(elemTypes=(ElemType(
+    elemCode=CPS4, elemLibrary=STANDARD), ElemType(elemCode=CPS3, 
+    elemLibrary=STANDARD, secondOrderAccuracy=OFF, distortionControl=DEFAULT)), 
+    regions=(mdb.models['square'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1 ]', ), ), ))
+mdb.models['square'].parts['Part-1'].generateMesh()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.Model(name='square-offx', objectToCopy=mdb.models['square-equi'])
+mdb.models['square-offx'].boundaryConditions['BC-3'].setValues(u1=5.9)
+# Save by vtac on 2023_06_26-10.38.30; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.Model(name='square-offy', objectToCopy=mdb.models['square-offx'])
+mdb.models['square-offy'].boundaryConditions['BC-5'].setValues(u2=5.9)
+mdb.models['square-offy'].boundaryConditions['BC-3'].setValues(u1=12.5)
+mdb.models['square-unia'].rootAssembly.sets.changeKey(fromName='Set-1', toName=
+    'set-leftsurface')
+mdb.models['square-unia'].rootAssembly.sets.changeKey(fromName='Set-2', toName=
+    'set-BottomLeftEdge')
+mdb.models['square-unia'].rootAssembly.sets.changeKey(fromName=
+    'set-leftsurface', toName='set-LeftSurface')
+mdb.models['square-unia'].rootAssembly.sets.changeKey(fromName='Set-3', toName=
+    'set-RightSurface')
+# Save by vtac on 2023_06_26-10.40.48; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-1', toName=
+    'set-LeftSurface')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-2', toName=
+    'set-BottomLeftEdge')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-3', toName=
+    'set-RightSurface')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-4', toName=
+    'set-BottomSurface')
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName='Set-5', toName=
+    'set-TopSurface')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-1', toName=
+    'set-LeftSurface')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-2', toName=
+    'set-BottomLeftEdge')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-3', toName=
+    'set-RightSurface')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-4', toName=
+    'set-BottomSurface')
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName='Set-5', toName=
+    'set-TopSurface')
+# Save by vtac on 2023_06_26-10.42.42; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-1', toName=
+    'set-LeftSurface')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-2', toName=
+    'set-BottomLeftEdge')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-3', toName=
+    'set-RightSurface')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-4', toName=
+    'set-BottomSurface')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName='Set-5', toName=
+    'set-TopSurface')
+# Save by vtac on 2023_06_26-10.43.38; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.jobs['square_uni_tens']
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square-equi', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square-equi', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square-offx', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square-offx', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square-offy', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square-offy', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square-unia', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square-unia', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+# Save by vtac on 2023_06_26-10.44.44; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['square-equi'].boundaryConditions['BC-1']
+del mdb.models['square-equi'].boundaryConditions['BC-2']
+del mdb.models['square-equi'].boundaryConditions['BC-3']
+del mdb.models['square-equi'].boundaryConditions['BC-4']
+del mdb.models['square-equi'].boundaryConditions['BC-5']
+mdb.models['square-equi'].EncastreBC(createStepName='Initial', localCsys=None, 
+    name='BottomLeftEdgeEncastre', region=
+    mdb.models['square-equi'].rootAssembly.sets['set-BottomLeftEdge'])
+mdb.models['square-equi'].XsymmBC(createStepName='Initial', localCsys=None, 
+    name='LeftSurfaceXsymm', region=
+    mdb.models['square-equi'].rootAssembly.sets['set-LeftSurface'])
+mdb.models['square-equi'].YsymmBC(createStepName='Initial', localCsys=None, 
+    name='BottomSurfaceYsymm', region=
+    mdb.models['square-equi'].rootAssembly.sets['set-BottomSurface'])
+mdb.models['square-equi'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='RightSurfaceDisp', region=
+    mdb.models['square-equi'].rootAssembly.sets['set-RightSurface'], u1=12.5, 
+    u2=UNSET, ur3=UNSET)
+mdb.models['square-equi'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='TopSurfaceDisp', region=
+    mdb.models['square-equi'].rootAssembly.sets['set-TopSurface'], u1=UNSET, 
+    u2=12.5, ur3=UNSET)
+# Save by vtac on 2023_06_26-10.49.36; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['square-offx'].boundaryConditions['BC-1']
+del mdb.models['square-offx'].boundaryConditions['BC-2']
+del mdb.models['square-offx'].boundaryConditions['BC-3']
+del mdb.models['square-offx'].boundaryConditions['BC-4']
+del mdb.models['square-offx'].boundaryConditions['BC-5']
+mdb.models['square-offx'].EncastreBC(createStepName='Initial', localCsys=None, 
+    name='BottomLeftEdgeEncastre', region=
+    mdb.models['square-offx'].rootAssembly.sets['set-BottomLeftEdge'])
+mdb.models['square-offx'].XsymmBC(createStepName='Initial', localCsys=None, 
+    name='LeftSurfaceXsymm', region=
+    mdb.models['square-offx'].rootAssembly.sets['set-LeftSurface'])
+mdb.models['square-offx'].YsymmBC(createStepName='Initial', localCsys=None, 
+    name='BottomSurfaceYsymm', region=
+    mdb.models['square-offx'].rootAssembly.sets['set-BottomSurface'])
+mdb.models['square-offx'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='RightSurfaceDisp', region=
+    mdb.models['square-offx'].rootAssembly.sets['set-RightSurface'], u1=5.9, 
+    u2=UNSET, ur3=UNSET)
+mdb.models['square-offx'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='TopSurfaceDisp', region=
+    mdb.models['square-offx'].rootAssembly.sets['set-TopSurface'], u1=UNSET, 
+    u2=12.5, ur3=UNSET)
+mdb.models['square-offx'].rootAssembly.sets.changeKey(fromName=
+    'set-BottomLeftEdge', toName='set-BottomLeftVert')
+mdb.models['square-offx'].boundaryConditions['BottomLeftEdgeEncastre'].setValues(
+    region=mdb.models['square-offx'].rootAssembly.sets['set-BottomLeftVert'])
+mdb.models['square-offx'].boundaryConditions.changeKey(fromName=
+    'BottomLeftEdgeEncastre', toName='BottomLeftVertEncastre')
+mdb.models['square-equi'].rootAssembly.sets.changeKey(fromName=
+    'set-BottomLeftEdge', toName='set-BottomLeftVert')
+mdb.models['square-equi'].boundaryConditions['BottomLeftEdgeEncastre'].setValues(
+    region=mdb.models['square-equi'].rootAssembly.sets['set-BottomLeftVert'])
+mdb.models['square-equi'].boundaryConditions.changeKey(fromName=
+    'BottomLeftEdgeEncastre', toName='BottomLeftVertEncastre')
+# Save by vtac on 2023_06_26-10.54.00; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['square-offy'].rootAssembly.sets.changeKey(fromName=
+    'set-BottomLeftEdge', toName='set-BottomLeftVert')
+del mdb.models['square-offy'].boundaryConditions['BC-1']
+del mdb.models['square-offy'].boundaryConditions['BC-2']
+del mdb.models['square-offy'].boundaryConditions['BC-3']
+del mdb.models['square-offy'].boundaryConditions['BC-4']
+del mdb.models['square-offy'].boundaryConditions['BC-5']
+mdb.models['square-offy'].EncastreBC(createStepName='Initial', localCsys=None, 
+    name='BottomLeftVertEncastre', region=
+    mdb.models['square-offy'].rootAssembly.sets['set-BottomLeftVert'])
+mdb.models['square-offy'].XsymmBC(createStepName='Initial', localCsys=None, 
+    name='LeftSurfaceXsymm', region=
+    mdb.models['square-offy'].rootAssembly.sets['set-LeftSurface'])
+mdb.models['square-offy'].YsymmBC(createStepName='Initial', localCsys=None, 
+    name='BottomSurfaceYsymm', region=
+    mdb.models['square-offy'].rootAssembly.sets['set-BottomSurface'])
+mdb.models['square-offy'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='RightSurfaceDisp', region=
+    mdb.models['square-offy'].rootAssembly.sets['set-RightSurface'], u1=12.5, 
+    u2=UNSET, ur3=UNSET)
+mdb.models['square-offy'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='TopSurfaceDisp', region=
+    mdb.models['square-offy'].rootAssembly.sets['set-TopSurface'], u1=UNSET, 
+    u2=5.9, ur3=UNSET)
+# Save by vtac on 2023_06_26-10.56.35; build 2020 2019_09_13-13.49.31 163176
+# Save by vtac on 2023_06_26-10.57.09; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.jobs.changeKey(fromName='square-equi', toName='square_equi')
+mdb.jobs.changeKey(fromName='square-offx', toName='square_offx')
+mdb.jobs.changeKey(fromName='square-offy', toName='square_offy')
+mdb.jobs.changeKey(fromName='square-unia', toName='square_unia')
+mdb.models['square-equi'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['square-equi'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1 ]', ), ))
+mdb.models['square-equi'].parts['Part-1'].setMeshControls(elemShape=TRI, 
+    regions=
+    mdb.models['square-equi'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1 ]', ), ))
+del mdb.models['square-offx']
+del mdb.models['square-offy']
+del mdb.models['square-unia']
+mdb.models.changeKey(fromName='square-equi', toName='square_equi')
+mdb.models['square_equi'].parts['Part-1'].generateMesh()
+mdb.models['square_equi'].rootAssembly.regenerate()
+del mdb.jobs['square_equi']
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square_equi', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square_equi', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.Model(name='square_offx', objectToCopy=mdb.models['square_equi'])
+mdb.models['square_offx'].boundaryConditions['RightSurfaceDisp'].setValues(u1=
+    5.9)
+mdb.Model(name='square_offy', objectToCopy=mdb.models['square_offx'])
+mdb.models['square_offy'].boundaryConditions['RightSurfaceDisp'].setValues(u1=
+    12.5)
+mdb.models['square_offy'].boundaryConditions['TopSurfaceDisp'].setValues(u2=
+    5.9)
+del mdb.jobs['square_offx']
+del mdb.jobs['square_offy']
+del mdb.jobs['square_unia']
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square_offx', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square_offx', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square_offy', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square_offy', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+# Save by vtac on 2023_06_26-11.13.47; build 2020 2019_09_13-13.49.31 163176

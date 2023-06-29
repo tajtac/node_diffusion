@@ -1,0 +1,3626 @@
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_6
+Abaqus 2020
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_10
+Abaqus 2020
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_4
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_7
+Abaqus 2020
+Abaqus 2020
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_8
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_10
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_4
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_7
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_9
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_2
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_6
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_6
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_3
+Abaqus 2020
+Abaqus 2020
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_9
+Abaqus 2020
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_5
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_8
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_3
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_3
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_1
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_1
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_4
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_2
+Abaqus 2020
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_5
+Abaqus 2020
+Abaqus 2020
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2708 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:17:59 PM EDT
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_10
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_1
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_5
+Abaqus 2020
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_9
+Abaqus 2020
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_9
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_10
+Abaqus 2020
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+<2648 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Mon 26 Jun 2023 03:18:01 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Mon 26 Jun 2023 03:18:01 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Mon 26 Jun 2023 03:18:01 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:01 PM EDT
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_8
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_1
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_8
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_6
+Abaqus 2020
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_8
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_7
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_3
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_2
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_3
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_5
+Abaqus 2020
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_1
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_3
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_6
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_4
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_1
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_10
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_4
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_8
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_6
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_6
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_9
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_7
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_2
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_7
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_7
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_7
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_7
+Abaqus 2020
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_5
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_4
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_1
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_4
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_3
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_10
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_7
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_3
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_5
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_4
+Abaqus 2020
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Analysis initiated from SIMULIA established products
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_10
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_1
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_8
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_4
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_8
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_5
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_3
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_8
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_2
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_5
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_6
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_2
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_1
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_2
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_2
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_9
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_9
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_2
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_9
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_10
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_9
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_10
+Abaqus 2020
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_5
+Abaqus 2020
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_6
+Abaqus 2020
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+GNU ld version 2.27-44.base.el7_9.1
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:02 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:02 PM EDT
+Run pre
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2633 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2633 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:03 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:03 PM EDT
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+GNU ld version 2.27-44.base.el7_9.1
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+GNU ld version 2.27-44.base.el7_9.1
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:04 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:04 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:05 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:05 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:05 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:05 PM EDT
+Run pre
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:06 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:06 PM EDT
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Mon 26 Jun 2023 03:18:08 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:08 PM EDT
+Run standard
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:08 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:08 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:08 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:08 PM EDT
+Run pre
+Run pre
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+<2573 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+<2573 out of 3272 licenses remain available>.
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2513 out of 3272 licenses remain available>.
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:10 PM EDT
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Run standard
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Run standard
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:10 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:10 PM EDT
+Run standard
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Mon 26 Jun 2023 03:18:11 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:11 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:11 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:11 PM EDT
+Run standard
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:12 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:12 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:12 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:12 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:12 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:12 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:12 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:12 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:12 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:12 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+GNU ld version 2.27-44.base.el7_9.1
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+Run pre
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:13 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:13 PM EDT
+Run pre
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+"standard" license request queued for the License Server. 
+Abaqus License Manager checked out the following licenses:
+"standard" license request queued for the License Server. 
+Abaqus License Manager checked out the following licenses:
+"standard" license request queued for the License Server. 
+Abaqus License Manager checked out the following licenses:
+"standard" license request queued for the License Server. 
+Abaqus License Manager checked out the following licenses:
+"standard" license request queued for the License Server. 
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Total time in queue: 1 seconds.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Total time in queue: 1 seconds.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+"standard" license request queued for the License Server. 
+<2508 out of 3272 licenses remain available>.
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+<2508 out of 3272 licenses remain available>.
+Total time in queue: 1 seconds.
+<2508 out of 3272 licenses remain available>.
+Total time in queue: 1 seconds.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+<2508 out of 3272 licenses remain available>.
+Total time in queue: 1 seconds.
+<2508 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2508 out of 3272 licenses remain available>.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+<2508 out of 3272 licenses remain available>.
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+<2508 out of 3272 licenses remain available>.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+<2508 out of 3272 licenses remain available>.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+<2508 out of 3272 licenses remain available>.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+Total time in queue: 1 seconds.
+<2508 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2508 out of 3272 licenses remain available>.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 0 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 0 seconds.
+Total time in queue: 0 seconds.
+Total time in queue: 0 seconds.
+Total time in queue: 0 seconds.
+Total time in queue: 0 seconds.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2508 out of 3272 licenses remain available>.
+<2508 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Mon 26 Jun 2023 03:18:14 PM EDT
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:14 PM EDT
+"standard" license request queued for the License Server. 
+Total time in queue: 0 seconds.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Mon 26 Jun 2023 03:18:14 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:14 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:14 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:14 PM EDT
+Run standard
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:17 PM EDT
+Run pre
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:18 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:18 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:19 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:19 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:19 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:19 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:19 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:19 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:22 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:22 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:37 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:37 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:37 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_6 COMPLETED
+Mon 26 Jun 2023 03:18:39 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:39 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:39 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_2 COMPLETED
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:40 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:40 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:41 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_7 COMPLETED
+Mon 26 Jun 2023 03:18:41 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:41 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:41 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_10 COMPLETED
+Mon 26 Jun 2023 03:18:41 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:41 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:41 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_8 COMPLETED
+Mon 26 Jun 2023 03:18:42 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:42 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:42 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_4 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:42 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:42 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_6 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:43 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:43 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_6 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:43 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:43 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_7 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:43 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:44 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_4 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:44 PM EDT
+Run SMASimUtility
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+Total time in queue: 31 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 30 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Mon 26 Jun 2023 03:18:44 PM EDT
+End SIM Wrap-up
+Total time in queue: 30 seconds.
+Total time in queue: 30 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 30 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 30 seconds.
+Total time in queue: 30 seconds.
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_9 COMPLETED
+"standard" license request queued for the License Server. 
+Total time in queue: 30 seconds.
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:44 PM EDT
+Run SMASimUtility
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+Mon 26 Jun 2023 03:18:44 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_10 COMPLETED
+Mon 26 Jun 2023 03:18:45 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:45 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:45 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:45 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_3 COMPLETED
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:45 PM EDT
+Run SMASimUtility
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+Mon 26 Jun 2023 03:18:45 PM EDT
+End SIM Wrap-up
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_9 COMPLETED
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:45 PM EDT
+Run SMASimUtility
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Mon 26 Jun 2023 03:18:46 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_3 COMPLETED
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2518 out of 3272 licenses remain available>.
+<2518 out of 3272 licenses remain available>.
+<2518 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+<2518 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2518 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+<2518 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+<2518 out of 3272 licenses remain available>.
+<2518 out of 3272 licenses remain available>.
+<2518 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2518 out of 3272 licenses remain available>.
+<2518 out of 3272 licenses remain available>.
+<2518 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:46 PM EDT
+Mon 26 Jun 2023 03:18:46 PM EDT
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:46 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:46 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_5 COMPLETED
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+Run pre
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+Run pre
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+Run pre
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+Run pre
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:47 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:47 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:18:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:18:48 PM EDT
+Run pre
+Mon 26 Jun 2023 03:18:48 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:48 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:48 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:49 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_8 COMPLETED
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:49 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:49 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_5 COMPLETED
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:49 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:50 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:50 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_2 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:50 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:50 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_1 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:51 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:51 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_9 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:51 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:51 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_5 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:52 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:52 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_10 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:52 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:52 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_1 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:52 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:53 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_9 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:53 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_10 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_3 COMPLETED
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:53 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:53 PM EDT
+Run standard
+Mon 26 Jun 2023 03:18:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:54 PM EDT
+Run standard
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:54 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:54 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_1 COMPLETED
+Mon 26 Jun 2023 03:18:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:18:54 PM EDT
+Run standard
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:54 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:54 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_4 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:18:54 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:18:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_3 COMPLETED
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 61 seconds.
+Total time in queue: 61 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 61 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 61 seconds.
+Total time in queue: 61 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 61 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 61 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 61 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 60 seconds.
+Total time in queue: 60 seconds.
+Total time in queue: 61 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 61 seconds.
+Total time in queue: 60 seconds.
+"standard" license request queued for the License Server. 
+Total time in queue: 60 seconds.
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 60 seconds.
+Total time in queue: 60 seconds.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+<2483 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+<2483 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2483 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2483 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+<2483 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+<2483 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Mon 26 Jun 2023 03:19:14 PM EDT
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Mon 26 Jun 2023 03:19:14 PM EDT
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+"standard" license request queued for the License Server. 
+Total time in queue: 60 seconds.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:14 PM EDT
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+
+
+
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+GNU ld version 2.27-44.base.el7_9.1
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+Run pre
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+Run pre
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+GNU ld version 2.27-44.base.el7_9.1
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+Run pre
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+GNU ld version 2.27-44.base.el7_9.1
+Run pre
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+GNU ld version 2.27-44.base.el7_9.1
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+Run pre
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+GNU ld version 2.27-44.base.el7_9.1
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+Run pre
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:17 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:17 PM EDT
+Run pre
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:18 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:18 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+GNU ld version 2.27-44.base.el7_9.1
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:19 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:19:19 PM EDT
+Run pre
+Run pre
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:23 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:23 PM EDT
+Mon 26 Jun 2023 03:19:23 PM EDT
+Mon 26 Jun 2023 03:19:23 PM EDT
+Mon 26 Jun 2023 03:19:23 PM EDT
+Mon 26 Jun 2023 03:19:23 PM EDT
+End Abaqus/Standard Analysis
+End Abaqus/Standard Analysis
+End Abaqus/Standard Analysis
+End Abaqus/Standard Analysis
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:24 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Analysis Input File Processor
+Run standard
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:24 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_1 COMPLETED
+Mon 26 Jun 2023 03:19:24 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:24 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Mon 26 Jun 2023 03:19:25 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run standard
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_5 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_8 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:25 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:26 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_1 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:26 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:26 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_6 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:26 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:26 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_7 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:27 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:27 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_3 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:27 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:27 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_3 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:28 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:28 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_3 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:28 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:28 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_2 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:29 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:29 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_6 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:29 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:29 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_8 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:29 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:30 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_8 COMPLETED
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+"standard" license request queued for the License Server. 
+Total time in queue: 90 seconds.
+Total time in queue: 90 seconds.
+Total time in queue: 90 seconds.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2508 out of 3272 licenses remain available>.
+<2508 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2508 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+<2508 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2508 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+<2508 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+<2508 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus License Manager checked out the following licenses:
+<2508 out of 3272 licenses remain available>.
+<2508 out of 3272 licenses remain available>.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2508 out of 3272 licenses remain available>.
+<2508 out of 3272 licenses remain available>.
+<2508 out of 3272 licenses remain available>.
+<2508 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+Mon 26 Jun 2023 03:19:44 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:19:44 PM EDT
+"standard" license request queued for the License Server. 
+Total time in queue: 90 seconds.
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:53 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:53 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_1 COMPLETED
+Mon 26 Jun 2023 03:19:53 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:54 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:54 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:54 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:54 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_6 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:54 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_7 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:54 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:54 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+Run SMASimUtility
+Run SMASimUtility
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:54 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:54 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_5 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_4 COMPLETED
+Mon 26 Jun 2023 03:19:54 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:19:54 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_7 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_2 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_5 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Run SMASimUtility
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_3 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_10 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_7 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_10 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_4 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_7 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_1 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:55 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_7 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:55 PM EDT
+Mon 26 Jun 2023 03:19:55 PM EDT
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+End SIM Wrap-up
+End Abaqus/Standard Analysis
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_8 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_4 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_7 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:19:55 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_4 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_4 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_9 COMPLETED
+Mon 26 Jun 2023 03:19:55 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_6 COMPLETED
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+Abaqus License Manager checked out the following licenses:
+<2608 out of 3272 licenses remain available>.
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2608 out of 3272 licenses remain available>.
+<2608 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:20:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:20:14 PM EDT
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:20:14 PM EDT
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2608 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:20:14 PM EDT
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+ Intel(R) Fortran 17.0-1632
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+ Intel(R) Fortran 17.0-1632
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+
+
+
+
+
+
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Run pre
+Run pre
+Run pre
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+Run pre
+Run pre
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:48 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:48 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+Run pre
+GNU ld version 2.27-44.base.el7_9.1
+GNU ld version 2.27-44.base.el7_9.1
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+Run pre
+Run pre
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+Run pre
+End Linking Abaqus/Standard User Subroutines
+Mon 26 Jun 2023 03:24:49 PM EDT
+Begin Analysis Input File Processor
+Mon 26 Jun 2023 03:24:49 PM EDT
+Run pre
+Run pre
+Run pre
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Run standard
+Mon 26 Jun 2023 03:24:54 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:24:54 PM EDT
+Run standard
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:24 PM EDT
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_8 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_2 COMPLETED
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_9 COMPLETED
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_2 COMPLETED
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_2 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_10 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_10.0_init_3 COMPLETED
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_9 COMPLETED
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_30.0_init_5 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_20.0_init_2 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:24 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:24 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Run SMASimUtility
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_5 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_1 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_10 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_5 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_10 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:25 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_2 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_10.0_init_6 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_6 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.08_lenscale_20.0_init_8 COMPLETED
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_10.0_init_1 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_8 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.06_lenscale_30.0_init_9 COMPLETED
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_20.0_init_4 COMPLETED
+Begin SIM Wrap-up
+Mon 26 Jun 2023 03:25:25 PM EDT
+Run SMASimUtility
+Mon 26 Jun 2023 03:25:25 PM EDT
+End SIM Wrap-up
+Abaqus JOB square_offy_sgmmsr_0.04_lenscale_30.0_init_9 COMPLETED

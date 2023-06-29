@@ -1,0 +1,226 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.ModelFromInputFile(inputFileName=
+    '/home/vtac/NODE_diffusion/fem/PurdueP/Pmesh_ordered.inp', name=
+    'Pmesh_ordered')
+mdb.models['Pmesh_ordered'].Material(name='UANISOHYPER-MAT')
+mdb.models['Pmesh_ordered'].materials['UANISOHYPER-MAT'].Hyperelastic(
+    anisotropicType=USER_DEFINED, formulation=INVARIANT, localDirections=2, 
+    materialType=ANISOTROPIC, moduliTimeScale=INSTANTANEOUS, properties=1, 
+    table=((999.0, ), ))
+mdb.models['Pmesh_ordered'].HomogeneousSolidSection(material='UANISOHYPER-MAT', 
+    name='Section-1', thickness=None)
+mdb.models['Pmesh_ordered'].parts['PART-1'].Set(elements=
+    mdb.models['Pmesh_ordered'].parts['PART-1'].elements.getSequenceFromMask(
+    mask=('[#ffffffff:41 #1 ]', ), ), name='Set-1')
+mdb.models['Pmesh_ordered'].parts['PART-1'].SectionAssignment(offset=0.0, 
+    offsetField='', offsetType=MIDDLE_SURFACE, region=
+    mdb.models['Pmesh_ordered'].parts['PART-1'].sets['Set-1'], sectionName=
+    'Section-1', thicknessAssignment=FROM_SECTION)
+mdb.models['Pmesh_ordered'].rootAssembly.Instance(dependent=ON, name='PART-1-1'
+    , part=mdb.models['Pmesh_ordered'].parts['PART-1'])
+mdb.models['Pmesh_ordered'].StaticStep(name='Step-1', nlgeom=ON, previous=
+    'Initial')
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['Model-1']
+mdb.models['Pmesh_ordered'].parts['PART-1'].MaterialOrientation(
+    additionalRotationType=ROTATION_NONE, axis=AXIS_3, fieldName='', localCsys=
+    None, orientationType=GLOBAL, region=Region(
+    elements=mdb.models['Pmesh_ordered'].parts['PART-1'].elements.getSequenceFromMask(
+    mask=('[#ffffffff:41 #1 ]', ), )), stackDirection=STACK_3)
+# Save by vtac on 2023_06_21-00.09.44; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Pmesh_ordered'].rootAssembly.regenerate()
+mdb.models['Pmesh_ordered'].rootAssembly.Set(name='Set-1', nodes=
+    mdb.models['Pmesh_ordered'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#7fff ]', ), ))
+mdb.models['Pmesh_ordered'].EncastreBC(createStepName='Initial', localCsys=None
+    , name='BC-1', region=
+    mdb.models['Pmesh_ordered'].rootAssembly.sets['Set-1'])
+mdb.models['Pmesh_ordered'].rootAssembly.Set(name='Set-2', nodes=
+    mdb.models['Pmesh_ordered'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #808040 #1040101 #40408042 #10010200 #8080002 #8000000', 
+    ' #40 #4020000 #0 #2040 #10400000 #40000000 #8', 
+    ' #40000022 #c00001 #1400180 #480900a0 #400620 #2 ]', ), ))
+mdb.models['Pmesh_ordered'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='BC-2', region=
+    mdb.models['Pmesh_ordered'].rootAssembly.sets['Set-2'], u1=UNSET, u2=-0.2, 
+    ur3=UNSET)
+# Save by vtac on 2023_06_21-00.11.05; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['Pmesh_ordered'].boundaryConditions['BC-2']
+mdb.models['Pmesh_ordered'].rootAssembly.Set(name='Set-3', nodes=
+    mdb.models['Pmesh_ordered'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #8000 #40001 #40008002 #10000 #8000002 #0', 
+    ' #40 #4000000 #0 #2000 #10000000 #0 #8', ' #20 #800001 #1000100 #80 ]', ), 
+    ))
+mdb.models['Pmesh_ordered'].DisplacementBC(amplitude=UNSET, createStepName=
+    'Step-1', distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None
+    , name='BC-2', region=
+    mdb.models['Pmesh_ordered'].rootAssembly.sets['Set-3'], u1=UNSET, u2=-0.2, 
+    ur3=UNSET)
+# Save by vtac on 2023_06_21-00.13.02; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='Pmesh_ordered', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='PP_coare_compress', 
+    nodalOutputPrecision=SINGLE, numCpus=1, numGPUs=0, queue=None, 
+    resultsFormat=ODB, scratch='', type=ANALYSIS, userSubroutine='', waitHours=
+    0, waitMinutes=0)
+# Save by vtac on 2023_06_21-00.13.41; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['Pmesh_ordered'].boundaryConditions['BC-1']
+mdb.models['Pmesh_ordered'].rootAssembly.Set(name='Set-4', nodes=
+    mdb.models['Pmesh_ordered'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#1 ]', ), ))
+mdb.models['Pmesh_ordered'].EncastreBC(createStepName='Initial', localCsys=None
+    , name='BC-1', region=
+    mdb.models['Pmesh_ordered'].rootAssembly.sets['Set-4'])
+mdb.models['Pmesh_ordered'].boundaryConditions.changeKey(fromName='BC-2', 
+    toName='BC-3')
+mdb.models['Pmesh_ordered'].rootAssembly.Set(name='Set-5', nodes=
+    mdb.models['Pmesh_ordered'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#7fff ]', ), ))
+mdb.models['Pmesh_ordered'].YsymmBC(createStepName='Step-1', localCsys=None, 
+    name='BC-2', region=mdb.models['Pmesh_ordered'].rootAssembly.sets['Set-5'])
+# Save by vtac on 2023_06_21-23.53.03; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.jobs.changeKey(fromName='PP_coare_compress', toName='PP_coarse_compress')
+mdb.ModelFromInputFile(inputFileName=
+    '/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine.inp', name='PP_fine')
+mdb.models['PP_fine'].parts['PART-1'].MaterialOrientation(
+    additionalRotationType=ROTATION_NONE, axis=AXIS_3, fieldName='', localCsys=
+    None, orientationType=GLOBAL, region=Region(
+    elements=mdb.models['PP_fine'].parts['PART-1'].elements.getSequenceFromMask(
+    mask=('[#ffffffff:277 #3ffff ]', ), )), stackDirection=STACK_3)
+mdb.models['PP_fine'].Material(name='UANISOHYPER-MAT')
+mdb.models['PP_fine'].materials['UANISOHYPER-MAT'].Hyperelastic(
+    anisotropicType=USER_DEFINED, formulation=INVARIANT, localDirections=2, 
+    materialType=ANISOTROPIC, moduliTimeScale=INSTANTANEOUS, properties=1, 
+    table=((999.0, ), ))
+mdb.models['PP_fine'].HomogeneousSolidSection(material='UANISOHYPER-MAT', name=
+    'Section-1', thickness=None)
+mdb.models['PP_fine'].parts['PART-1'].Set(elements=
+    mdb.models['PP_fine'].parts['PART-1'].elements.getSequenceFromMask(mask=(
+    '[#ffffffff:277 #3ffff ]', ), ), name='Set-2')
+mdb.models['PP_fine'].parts['PART-1'].SectionAssignment(offset=0.0, 
+    offsetField='', offsetType=MIDDLE_SURFACE, region=
+    mdb.models['PP_fine'].parts['PART-1'].sets['Set-2'], sectionName=
+    'Section-1', thicknessAssignment=FROM_SECTION)
+mdb.models['PP_fine'].rootAssembly.Instance(dependent=ON, name='PART-1-1', 
+    part=mdb.models['PP_fine'].parts['PART-1'])
+mdb.models['PP_fine'].StaticStep(name='Step-1', nlgeom=ON, previous='Initial')
+mdb.models['PP_fine'].rootAssembly.Set(name='Set-1', nodes=
+    mdb.models['PP_fine'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#1 ]', ), ))
+mdb.models['PP_fine'].EncastreBC(createStepName='Initial', localCsys=None, 
+    name='BC-1', region=mdb.models['PP_fine'].rootAssembly.sets['Set-1'])
+mdb.models['PP_fine'].rootAssembly.Set(name='Set-2', nodes=
+    mdb.models['PP_fine'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#ffffffff #7ffff ]', ), ))
+mdb.models['PP_fine'].YsymmBC(createStepName='Initial', localCsys=None, name=
+    'BC-2', region=mdb.models['PP_fine'].rootAssembly.sets['Set-2'])
+mdb.models['PP_fine'].rootAssembly.Set(name='Set-3', nodes=
+    mdb.models['PP_fine'].rootAssembly.instances['PART-1-1'].nodes.getSequenceFromMask(
+    mask=('[#0:49 #40000 #0 #8 #400000 #0 #100', 
+    ' #1000000 #0 #200 #2000000 #0 #200 #1000000', 
+    ' #0 #40 #200000 #0 #8 #40000 #0', 
+    ' #4 #40000 #80000000 #0 #1000 #2000000 #0', 
+    ' #40 #40000 #20000000 #0 #80 #10000 #1000000', 
+    ' #40000000 #0 #8 #100 #2000 #20000 #400000', 
+    ' #20000000 #0 #10 #800 #80000 #8000000 #0', 
+    ' #8 #2000 #1000000 #0 #20 #20000 #0', ' #2 #40000 #0 #8 #400000 #0 #200', 
+    ' #0 #1 #2000000 #0 #4000 #0 #8', ' #200000 #0 #100 #400000 #0 #4 #10000', 
+    ' #20000000 #0 #20 #4000 #200000 #8000000 #0', 
+    ' #4 #100 #200:3 #100 #10 #2000001 #100000', ' #2000 #8 ]', ), ))
+mdb.models['PP_fine'].DisplacementBC(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, fieldName='', fixed=OFF, localCsys=None, name=
+    'BC-3', region=mdb.models['PP_fine'].rootAssembly.sets['Set-3'], u1=UNSET, 
+    u2=-0.05, ur3=UNSET)
+# Save by vtac on 2023_06_22-11.05.55; build 2020 2019_09_13-13.49.31 163176

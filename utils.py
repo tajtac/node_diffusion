@@ -65,19 +65,19 @@ def eval_Cauchy_aniso(lmbx,lmby, model):
 eval_Cauchy_aniso_vmap = vmap(eval_Cauchy_aniso, in_axes=(0,0,None), out_axes = (0,0))
 
 @partial(jit, static_argnums=(0,2,3,))
-def step_jp(loss, i, get_params, opt_update, opt_state, X_batch, norm):
+def step_jp(loss, i, get_params, opt_update, opt_state, X_batch):
     params = get_params(opt_state)
-    g = grad(loss)(params, X_batch, norm)
+    g = grad(loss)(params, X_batch)
     return opt_update(i, g, opt_state)
 
-def train_jp(loss, X, norm, get_params, opt_update, opt_state, key, nIter = 10000, print_freq=1000):
+def train_jp(loss, X, get_params, opt_update, opt_state, key, nIter = 10000, print_freq=1000):
     train_loss = []
     val_loss = []
     for it in range(nIter):
-        opt_state = step_jp(loss, it, get_params, opt_update, opt_state, X, norm)         
+        opt_state = step_jp(loss, it, get_params, opt_update, opt_state, X)         
         if (it+1)% print_freq == 0:
             params = get_params(opt_state)
-            train_loss_value = loss(params, X, norm)
+            train_loss_value = loss(params, X)
             train_loss.append(train_loss_value)
             to_print = "it %i, train loss = %e" % (it+1, train_loss_value)
             print(to_print)
@@ -99,5 +99,5 @@ def merge_weights_aniso(params_c, params_s):
     params_1_w  = (params_1_wc, params_s[3])
     params_v_w  = (params_v_wc, params_s[4])
     NODE_weights = (params_I1, params_I2, params_1_v, params_1_w, params_v_w)
-    params = (NODE_weights, params_s[5], params_s[6], params_s[7], params_s[8])
+    params = [NODE_weights, params_s[5], params_s[6], params_s[7], params_s[8]]
     return params

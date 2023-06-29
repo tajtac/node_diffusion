@@ -1,0 +1,61 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.jobs.changeKey(fromName='square-equi', toName='square_equi')
+mdb.jobs.changeKey(fromName='square-offx', toName='square_offx')
+mdb.jobs.changeKey(fromName='square-offy', toName='square_offy')
+mdb.jobs.changeKey(fromName='square-unia', toName='square_unia')
+mdb.models['square-equi'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['square-equi'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1 ]', ), ))
+mdb.models['square-equi'].parts['Part-1'].setMeshControls(elemShape=TRI, 
+    regions=
+    mdb.models['square-equi'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1 ]', ), ))
+del mdb.models['square-offx']
+del mdb.models['square-offy']
+del mdb.models['square-unia']
+mdb.models.changeKey(fromName='square-equi', toName='square_equi')
+mdb.models['square_equi'].parts['Part-1'].generateMesh()
+mdb.models['square_equi'].rootAssembly.regenerate()
+del mdb.jobs['square_equi']
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square_equi', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square_equi', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.Model(name='square_offx', objectToCopy=mdb.models['square_equi'])
+mdb.models['square_offx'].boundaryConditions['RightSurfaceDisp'].setValues(u1=
+    5.9)
+mdb.Model(name='square_offy', objectToCopy=mdb.models['square_offx'])
+mdb.models['square_offy'].boundaryConditions['RightSurfaceDisp'].setValues(u1=
+    12.5)
+mdb.models['square_offy'].boundaryConditions['TopSurfaceDisp'].setValues(u2=
+    5.9)
+del mdb.jobs['square_offx']
+del mdb.jobs['square_offy']
+del mdb.jobs['square_unia']
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square_offx', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square_offx', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)
+mdb.Job(atTime=None, contactPrint=OFF, description='', echoPrint=OFF, 
+    explicitPrecision=SINGLE, getMemoryFromAnalysis=True, historyPrint=OFF, 
+    memory=90, memoryUnits=PERCENTAGE, model='square_offy', modelPrint=OFF, 
+    multiprocessingMode=DEFAULT, name='square_offy', nodalOutputPrecision=
+    SINGLE, numCpus=1, numGPUs=0, queue=None, resultsFormat=ODB, scratch='', 
+    type=ANALYSIS, userSubroutine='', waitHours=0, waitMinutes=0)

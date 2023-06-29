@@ -1,0 +1,218 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2020 replay file
+# Internal Version: 2019_09_13-13.49.31 163176
+# Run by vtac on Tue Jun 27 15:53:50 2023
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=272.906677246094, 
+    height=200.276016235352)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+openMdb(pathName='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted.cae')
+#: A new model database has been created.
+#: The model "Model-1" has been created.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+#* ***ERROR: CAE database is corrupt.
+openMdb(pathName='/home/vtac/NODE_diffusion/fem/PurdueP/PP_coarse_shear.cae')
+#: The model database "/home/vtac/NODE_diffusion/fem/PurdueP/PP_coarse_shear.cae" has been opened.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+p = mdb.models['Pmesh_ordered'].parts['PART-1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.04_lenscale_0.4_init_1.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.04_lenscale_0.4_init_1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].animationController.setValues(
+    animationType=TIME_HISTORY)
+session.viewports['Viewport: 1'].animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].animationController.setValues(
+    animationType=NONE)
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_1.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxAutoCompute=OFF, maxValue=0.01, minValue=1.96511E-08)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxValue=0.005)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxValue=0.003)
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_2.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_2.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_3.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_3.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_4.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_4.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_5.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_5.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_6.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_6.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=5.08427, 
+    farPlane=7.39323, width=0.300353, height=0.214107, viewOffsetX=-0.37032, 
+    viewOffsetY=0.195215)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxAutoCompute=ON)
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxAutoCompute=OFF, minValue=2.24688E-08)
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(INVARIANT, 
+    'Max. Principal'), )
+session.viewports['Viewport: 1'].view.fitView()
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_1.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_2.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_2.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_3.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_3.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_4.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.2_init_4.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.3_init_1.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_0.3_init_1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       2
+#: Number of Node Sets:          1602
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(COMPONENT, 
+    'S11'), )
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(COMPONENT, 
+    'S22'), )
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(COMPONENT, 
+    'S12'), )

@@ -1,0 +1,56 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.ModelFromInputFile(inputFileName=
+    '/home/vtac/NODE_diffusion/fem/PurdueP/Pmesh_ordered.inp', name=
+    'Pmesh_ordered')
+mdb.models['Pmesh_ordered'].Material(name='UANISOHYPER-MAT')
+mdb.models['Pmesh_ordered'].materials['UANISOHYPER-MAT'].Hyperelastic(
+    anisotropicType=USER_DEFINED, formulation=INVARIANT, localDirections=2, 
+    materialType=ANISOTROPIC, moduliTimeScale=INSTANTANEOUS, properties=1, 
+    table=((999.0, ), ))
+mdb.models['Pmesh_ordered'].HomogeneousSolidSection(material='UANISOHYPER-MAT', 
+    name='Section-1', thickness=None)
+mdb.models['Pmesh_ordered'].parts['PART-1'].Set(elements=
+    mdb.models['Pmesh_ordered'].parts['PART-1'].elements.getSequenceFromMask(
+    mask=('[#ffffffff:41 #1 ]', ), ), name='Set-1')
+mdb.models['Pmesh_ordered'].parts['PART-1'].SectionAssignment(offset=0.0, 
+    offsetField='', offsetType=MIDDLE_SURFACE, region=
+    mdb.models['Pmesh_ordered'].parts['PART-1'].sets['Set-1'], sectionName=
+    'Section-1', thicknessAssignment=FROM_SECTION)
+mdb.models['Pmesh_ordered'].rootAssembly.Instance(dependent=ON, name='PART-1-1'
+    , part=mdb.models['Pmesh_ordered'].parts['PART-1'])
+mdb.models['Pmesh_ordered'].StaticStep(name='Step-1', nlgeom=ON, previous=
+    'Initial')
+# Save by vtac on 2023_06_21-00.06.25; build 2020 2019_09_13-13.49.31 163176
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['Model-1']
+mdb.models['Pmesh_ordered'].parts['PART-1'].MaterialOrientation(
+    additionalRotationType=ROTATION_NONE, axis=AXIS_3, fieldName='', localCsys=
+    None, orientationType=GLOBAL, region=Region(
+    elements=mdb.models['Pmesh_ordered'].parts['PART-1'].elements.getSequenceFromMask(
+    mask=('[#ffffffff:41 #1 ]', ), )), stackDirection=STACK_3)
+# Save by vtac on 2023_06_21-00.09.29; build 2020 2019_09_13-13.49.31 163176
