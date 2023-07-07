@@ -3,7 +3,7 @@ from abaqusConstants import *
 import numpy as np
 
 
-for label in ['soft', 'med', 'stiff']:
+for label in ['soft', 'med', 'stiff', 'baseline']:
     odbfile = 'fem/PurdueP/PP_fine_filleted_homogeneous_' + label + '.odb'
     odb = openOdb(odbfile)
     lastStep = odb.steps.keys()[-1]

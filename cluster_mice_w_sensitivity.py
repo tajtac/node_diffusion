@@ -78,18 +78,10 @@ def run_diffusion_training(n_neurons, init):
 
 
 
-    # Normalization factors
-    I1_factor = 3.0
-    I2_factor = 3.0
-    Iv_factor = 1.0
-    Iw_factor = 1.0
-    normalization = [I1_factor, I2_factor, Iv_factor, Iw_factor]
-
-
     # Define the loss function for when training all params
     @jit
-    def loss_sig_all(params, lamb_sigma, normalization):
-        model   = NODE_model_aniso(params, normalization)
+    def loss_sig_all(params, lamb_sigma):
+        model   = NODE_model_aniso(params)
         lambx   = lamb_sigma[:,0]
         lamby   = lamb_sigma[:,1]
         sigmax  = lamb_sigma[:,2]
@@ -111,7 +103,7 @@ def run_diffusion_training(n_neurons, init):
     print('Initialization #', init+1)
     print('Training with mean response...')
     key, subkey = random.split(key)
-    params_all, train_loss, val_loss = train_jp(loss_sig_all, lamb_sigma_m, normalization, get_params, opt_update, opt_state, key, nIter = 100000, print_freq=10000)
+    params_all, train_loss, val_loss = train_jp(loss_sig_all, lamb_sigma_m, get_params, opt_update, opt_state, key, nIter = 100000, print_freq=10000)
     with open('params/mice_w_sensitivity/params_m_' + str(n_neurons) + '_init_' + str(init) + '.npy', 'wb') as f:
         pickle.dump(params_all, f)
     
@@ -123,9 +115,9 @@ def run_diffusion_training(n_neurons, init):
     params_1_vc,params_1_vs = params_1_v
     params_1_wc,params_1_ws = params_1_w
     params_v_wc,params_v_ws = params_v_w
-    def loss_sample(sample_params, X, normalization): #This keeps the common params constant and varies sample_params
+    def loss_sample(sample_params, X): #This keeps the common params constant and varies sample_params
         params = merge_weights_aniso(params_all, sample_params)
-        return loss_sig_all(params, X, normalization)
+        return loss_sig_all(params, X)
 
     mean_sample_params = (params_I1s, params_I2s, params_1_vs, params_1_ws, params_v_ws, theta, Psi1_bias, Psi2_bias, alpha)
     
@@ -137,13 +129,13 @@ def run_diffusion_training(n_neurons, init):
         opt_init, opt_update, get_params = optimizers.adam(5.0e-4)
         opt_state = opt_init(mean_sample_params)
 
-        sample_params, train_loss, val_loss = train_jp(loss_sample, lamb_sigma_j, normalization, get_params, opt_update, opt_state, key, nIter = 50000, print_freq=50000)
+        sample_params, train_loss, val_loss = train_jp(loss_sample, lamb_sigma_j, get_params, opt_update, opt_state, key, nIter = 50000, print_freq=50000)
         Sample_params.append(sample_params)
         Train_loss.append(train_loss[-1])
 
         # Construct the model and evaluate stresses for each individual after training
         params = merge_weights_aniso(params_all, sample_params)
-        mymodel = NODE_model_aniso(params, normalization)
+        mymodel = NODE_model_aniso(params)
 
         sgm = eval_Cauchy_aniso_vmap(lamb_sigma_j[:,0],lamb_sigma_j[:,1], mymodel)
         sgmx_pr, sgmy_pr = sgm
@@ -207,7 +199,7 @@ def run_diffusion_training(n_neurons, init):
         sample_params = unravel_params(l_unscaled)
 
         params = merge_weights_aniso(params_all, sample_params)
-        mymodel = NODE_model_aniso(params, normalization)
+        mymodel = NODE_model_aniso(params)
 
         lmbx = np.linspace(1,1.25) 
         sgm_offx = eval_Cauchy_aniso_vmap(np.sqrt(lmbx),lmbx, mymodel) # Offx
