@@ -1,0 +1,95 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2020 replay file
+# Internal Version: 2019_09_13-13.49.31 163176
+# Run by vtac on Mon Jul 24 02:14:09 2023
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=314.688873291016, 
+    height=200.276016235352)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_10.0_init_1.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_10.0_init_1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          683
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    maxAutoCompute=OFF, maxValue=0.0169546, minAutoCompute=OFF, 
+    minValue=0.0169394)
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_10.0_init_2.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_10.0_init_2.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          683
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.fitView()
+session.viewports['Viewport: 1'].odbDisplay.contourOptions.setValues(
+    outsideLimitsAboveColor='#710000', outsideLimitsBelowColor='#D9D9D9')
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_10.0_init_3.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_10.0_init_3.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          683
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.fitView()
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_20.0_init_1.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_20.0_init_1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          683
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].view.fitView()
+o1 = session.openOdb(
+    name='/home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_20.0_init_2.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: /home/vtac/NODE_diffusion/fem/square/square_equi_sgmmsr_0.04_lenscale_20.0_init_2.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          683
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))

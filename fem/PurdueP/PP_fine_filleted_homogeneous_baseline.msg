@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 06-Jul-2023   Time 14:00:50
+   Abaqus 2020                                  Date 16-Aug-2023   Time 14:45:43
    For use by PURDUE UNIVERSITY under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -127,8 +127,8 @@
      CHECK POINT  END OF SOLVER       
 
        ELAPSED USER TIME (SEC)      =  1.00000E-02
-       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
@@ -150,9 +150,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  2.00000E-02
+       ELAPSED USER TIME (SEC)      =  1.00000E-02
        ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
-       ELAPSED TOTAL CPU TIME (SEC) =  3.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
@@ -245,7 +245,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =   7.5900    
-       SYSTEM TIME (SEC)    =  0.12000    
-       TOTAL CPU TIME (SEC) =   7.7100    
-       WALLCLOCK TIME (SEC) =          7
+       USER TIME (SEC)      =   7.7900    
+       SYSTEM TIME (SEC)    =  0.13000    
+       TOTAL CPU TIME (SEC) =   7.9200    
+       WALLCLOCK TIME (SEC) =          8

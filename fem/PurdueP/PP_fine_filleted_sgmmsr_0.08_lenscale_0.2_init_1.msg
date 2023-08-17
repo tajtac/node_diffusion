@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 27-Jun-2023   Time 19:02:39
+   Abaqus 2020                                  Date 16-Aug-2023   Time 13:50:18
    For use by PURDUE UNIVERSITY under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -88,152 +88,130 @@
 
      PRINT OF INCREMENT NUMBER, TIME, ETC., TO THE MESSAGE FILE EVERY     1  INCREMENTS
 
-     ELEMENT OPERATIONS WILL BE CARRIED OUT IN PARALLEL USING   4 PROCESSORS
-
-     PARALLEL CONTACT TRACKING ENABLED
-
-
      COLLECTING MODEL CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS
 
      COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS
 
 
   INCREMENT     1 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-     INITIAL ELEMENT LOAD BALANCE
-            PROCESS    1   THREAD     NUMBER OF ELEMENTS
-                              1            664
-                              2            768
-                              3            768
-                              4            768
 
   NUMBER OF EQUATIONS =      3196     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  4.03E+06
-
-  USING THE DIRECT SOLVER WITH   4 PROCESSORS
 
      CHECK POINT   START OF SOLVER    
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  0.71000    
+       ELAPSED USER TIME (SEC)      =  2.00000E-02
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  0.71000    
+       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.499E-06   TIME AVG. FORCE       2.499E-06
- LARGEST RESIDUAL FORCE             2.724E-05   AT NODE        923   DOF  1
+ AVERAGE FORCE                      2.663E-06   TIME AVG. FORCE       2.663E-06
+ LARGEST RESIDUAL FORCE             2.872E-05   AT NODE        923   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST INCREMENT OF DISP.         5.103E-02   AT NODE        786   DOF  2
+ LARGEST INCREMENT OF DISP.         5.094E-02   AT NODE        964   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST CORRECTION TO DISP.        5.103E-02   AT NODE        786   DOF  2
+ LARGEST CORRECTION TO DISP.        5.094E-02   AT NODE        964   DOF  2
    INSTANCE: PART-1-1                                                                        
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
   NUMBER OF EQUATIONS =      3196     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  4.03E+06
 
-  USING THE DIRECT SOLVER WITH   4 PROCESSORS
-
      CHECK POINT   START OF SOLVER    
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  0.59000    
-       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
-       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED USER TIME (SEC)      =  1.00000E-02
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      2.293E-06   TIME AVG. FORCE       2.293E-06
- LARGEST RESIDUAL FORCE             7.555E-06   AT NODE        923   DOF  2
+ AVERAGE FORCE                      2.448E-06   TIME AVG. FORCE       2.448E-06
+ LARGEST RESIDUAL FORCE             8.784E-06   AT NODE        923   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST INCREMENT OF DISP.         5.159E-02   AT NODE        522   DOF  2
+ LARGEST INCREMENT OF DISP.         5.136E-02   AT NODE        522   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST CORRECTION TO DISP.        1.036E-02   AT NODE        709   DOF  1
+ LARGEST CORRECTION TO DISP.        1.041E-02   AT NODE        709   DOF  1
    INSTANCE: PART-1-1                                                                        
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
   NUMBER OF EQUATIONS =      3196     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  4.03E+06
 
-  USING THE DIRECT SOLVER WITH   4 PROCESSORS
-
      CHECK POINT   START OF SOLVER    
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  0.69000    
-       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  0.69000    
+       ELAPSED USER TIME (SEC)      =  2.00000E-02
+       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =  3.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          1
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
 
 
- AVERAGE FORCE                      2.286E-06   TIME AVG. FORCE       2.286E-06
- LARGEST RESIDUAL FORCE             8.904E-07   AT NODE        923   DOF  2
+ AVERAGE FORCE                      2.438E-06   TIME AVG. FORCE       2.438E-06
+ LARGEST RESIDUAL FORCE             1.113E-06   AT NODE        923   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST INCREMENT OF DISP.         5.179E-02   AT NODE        668   DOF  2
+ LARGEST INCREMENT OF DISP.         5.165E-02   AT NODE        597   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST CORRECTION TO DISP.       -1.086E-03   AT NODE        969   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.445E-03   AT NODE       1009   DOF  2
    INSTANCE: PART-1-1                                                                        
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
   NUMBER OF EQUATIONS =      3196     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  4.03E+06
 
-  USING THE DIRECT SOLVER WITH   4 PROCESSORS
-
      CHECK POINT   START OF SOLVER    
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  0.56000    
+       ELAPSED USER TIME (SEC)      =  2.00000E-02
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  0.56000    
+       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
 
 
- AVERAGE FORCE                      2.286E-06   TIME AVG. FORCE       2.286E-06
- LARGEST RESIDUAL FORCE             2.885E-08   AT NODE        916   DOF  2
+ AVERAGE FORCE                      2.439E-06   TIME AVG. FORCE       2.439E-06
+ LARGEST RESIDUAL FORCE             5.742E-08   AT NODE        858   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST INCREMENT OF DISP.         5.182E-02   AT NODE        668   DOF  2
+ LARGEST INCREMENT OF DISP.         5.170E-02   AT NODE        597   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST CORRECTION TO DISP.       -1.393E-04   AT NODE        971   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.465E-04   AT NODE        970   DOF  2
    INSTANCE: PART-1-1                                                                        
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
   NUMBER OF EQUATIONS =      3196     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  4.03E+06
 
-  USING THE DIRECT SOLVER WITH   4 PROCESSORS
-
      CHECK POINT   START OF SOLVER    
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  0.62000    
+       ELAPSED USER TIME (SEC)      =  2.00000E-02
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  0.62000    
+       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     5
 
 
- AVERAGE FORCE                      2.287E-06   TIME AVG. FORCE       2.287E-06
- LARGEST RESIDUAL FORCE             6.030E-10   AT NODE        858   DOF  2
+ AVERAGE FORCE                      2.439E-06   TIME AVG. FORCE       2.439E-06
+ LARGEST RESIDUAL FORCE             2.465E-09   AT NODE        858   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST INCREMENT OF DISP.         5.182E-02   AT NODE        668   DOF  2
+ LARGEST INCREMENT OF DISP.         5.171E-02   AT NODE        597   DOF  2
    INSTANCE: PART-1-1                                                                        
- LARGEST CORRECTION TO DISP.       -9.532E-06   AT NODE        858   DOF  1
+ LARGEST CORRECTION TO DISP.       -1.551E-05   AT NODE        858   DOF  1
    INSTANCE: PART-1-1                                                                        
           THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
 
@@ -267,7 +245,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =   11.110    
-       SYSTEM TIME (SEC)    =  0.36000    
-       TOTAL CPU TIME (SEC) =   11.470    
-       WALLCLOCK TIME (SEC) =         12
+       USER TIME (SEC)      =   7.8900    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =   7.9900    
+       WALLCLOCK TIME (SEC) =          9

@@ -1,5 +1,5 @@
 from driverConstants import *
-from driverStandardMPI import StandardMPIAnalysis
+from driverStandard import StandardAnalysis
 import driverUtils, sys
 options = {
     'SIMExt':'.sim',
@@ -16,7 +16,7 @@ options = {
     'contact':OFF,
     'cosimulation':OFF,
     'coupledProcedure':OFF,
-    'cpus':4,
+    'cpus':1,
     'cse':OFF,
     'cyclicSymmetryModel':OFF,
     'directCyclic':OFF,
@@ -56,14 +56,8 @@ options = {
     'modifiedTet':OFF,
     'moldflowFiles':[],
     'moldflowMaterial':OFF,
-    'mp_file_system':(DETECT, DETECT),
-    'mp_head_node':('brown-a248.rcac.purdue.edu', 'brown-a248', '172.18.33.43'),
-    'mp_host_list':(('brown-a248.rcac.purdue.edu', 4),),
-    'mp_mode':MPI,
+    'mp_mode':THREADS,
     'mp_mode_requested':MPI,
-    'mp_mpi_validate':OFF,
-    'mp_mpirun_path':'/apps/cent7/abaqus/abaqus-2020/EstProducts/2020/linux_a64/code/bin/SMAExternal/pmpi/bin/mpirun',
-    'mp_rsh_command':'ssh -n -l vtac %H %C',
     'multiphysics':OFF,
     'noDmpDirect':[],
     'noMultiHost':[],
@@ -111,6 +105,6 @@ options = {
     'visco':OFF,
     'xplSelect':OFF,
 }
-analysis = StandardMPIAnalysis(options)
+analysis = StandardAnalysis(options)
 status = analysis.run()
 sys.exit(status)

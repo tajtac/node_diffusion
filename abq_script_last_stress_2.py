@@ -2,7 +2,10 @@ from odbAccess import *
 from abaqusConstants import *
 import numpy as np
 
-
+"""
+Script description:
+Get the stress data for the 3 (4) homogeneous cases of the Purdue P.
+"""
 for label in ['soft', 'med', 'stiff', 'baseline']:
     odbfile = 'fem/PurdueP/PP_fine_filleted_homogeneous_' + label + '.odb'
     odb = openOdb(odbfile)

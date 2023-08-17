@@ -101,3 +101,15 @@ def merge_weights_aniso(params_c, params_s):
     NODE_weights = (params_I1, params_I2, params_1_v, params_1_w, params_v_w)
     params = [NODE_weights, params_s[5], params_s[6], params_s[7], params_s[8]]
     return params
+
+def merge_weights_iso(params_c, params_s):
+    NODE_weights, Psi1_bias, Psi2_bias = params_c
+    params_I1, params_I2 = NODE_weights
+    params_I1c, params_I1s = params_I1
+    params_I2c, params_I2s = params_I2
+
+    params_I1   = (params_I1c,  params_s[0])
+    params_I2   = (params_I2c,  params_s[1])
+    NODE_weights = (params_I1, params_I2)
+    params = [NODE_weights, params_s[2], params_s[3]]
+    return params

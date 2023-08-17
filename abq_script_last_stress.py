@@ -2,9 +2,12 @@ from odbAccess import *
 from abaqusConstants import *
 import numpy as np
 
-
-for lenscale in [0.15]:
-    for init in range(1,21):
+"""
+Script description:
+Get the stress data for all the Purdue P abaqus runs and store them in files.
+"""
+for lenscale in [0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6]:
+    for init in range(1,11):
         odbfile = 'fem/PurdueP/PP_fine_filleted_sgmmsr_0.08_lenscale_' + str(lenscale) + '_init_' + str(init) + '.odb'
         odb = openOdb(odbfile)
         lastStep = odb.steps.keys()[-1]

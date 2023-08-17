@@ -16,7 +16,6 @@ options = {
     'contact':OFF,
     'cosimulation':OFF,
     'coupledProcedure':OFF,
-    'cpus':1,
     'cse':OFF,
     'cyclicSymmetryModel':OFF,
     'directCyclic':OFF,

@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 26-Jun-2023   Time 14:53:02
+   Abaqus 2020                                  Date 30-Jul-2023   Time 01:24:00
    For use by PURDUE UNIVERSITY under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -102,9 +102,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
+       ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -126,9 +126,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
+       ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
@@ -160,8 +160,8 @@
      CHECK POINT  END OF SOLVER       
 
        ELAPSED USER TIME (SEC)      =  1.00000E-02
-       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
-       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -225,8 +225,8 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
-       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
        ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
@@ -259,8 +259,8 @@
      CHECK POINT  END OF SOLVER       
 
        ELAPSED USER TIME (SEC)      =  1.00000E-02
-       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -357,9 +357,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
-       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
-       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
+       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -390,9 +390,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
+       ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -456,9 +456,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
+       ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -556,8 +556,8 @@
      CHECK POINT  END OF SOLVER       
 
        ELAPSED USER TIME (SEC)      =  1.00000E-02
-       ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
-       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -687,9 +687,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
+       ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -720,9 +720,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED USER TIME (SEC)      =  1.00000E-02
        ELAPSED SYSTEM TIME (SEC)    =  1.00000E-02
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =  2.00000E-02
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -753,9 +753,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  1.00000E-02
+       ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  1.00000E-02
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
@@ -800,7 +800,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =   30.000    
-       SYSTEM TIME (SEC)    =  0.15000    
-       TOTAL CPU TIME (SEC) =   30.150    
-       WALLCLOCK TIME (SEC) =         30
+       USER TIME (SEC)      =   28.910    
+       SYSTEM TIME (SEC)    =  0.22000    
+       TOTAL CPU TIME (SEC) =   29.130    
+       WALLCLOCK TIME (SEC) =         29

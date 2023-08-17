@@ -36,14 +36,10 @@ def init_params(common_layers, sample_layers, key):
     params_I1_sample = init_layers(sample_layers, key)
     params_I2_common = init_layers(common_layers, key)
     params_I2_sample = init_layers(sample_layers, key)
-    # params_I1I2_common = init_layers(common_layers, key)
-    # params_I1I2_sample = init_layers(sample_layers, key)
 
     params_I1 = (params_I1_common, params_I1_sample)
     params_I2 = (params_I2_common, params_I2_sample)
-    # params_I1I2 = (params_I1I2_common, params_I1I2_sample)
     NODE_weights = (params_I1, params_I2)
-    alpha = 0.5
     Psi1_bias = -5.0
     Psi2_bias = -5.0
 
@@ -117,19 +113,13 @@ class NODE_model(): #isotropic
         I1 = I1-3.0
         I2 = I2-3.0
         Psi_1 = NODE(I1, self.params_I1)
-        # a = jax.nn.sigmoid(self.alpha)
-        # Psi_1_2 = NODE(a*I1 + (1.0-a)*I2, self.params_1_2)
-        Psi_1_2 = a = 0.0
-        return Psi_1 + a*Psi_1_2 + jnp.exp(self.Psi1_bias)
+        return Psi_1 + jnp.exp(self.Psi1_bias)
     
     def Psi2(self, I1, I2):
         I1 = I1-3.0
         I2 = I2-3.0
         Psi_2 = NODE(I2, self.params_I2)
-        # a = jax.nn.sigmoid(self.alpha)
-        # Psi_1_2 = NODE(a*I1 + (1.0-a)*I2, self.params_1_2)
-        Psi_1_2 = a = 0.0
-        return Psi_2 + (1.0-a)*Psi_1_2 + jnp.exp(self.Psi2_bias)
+        return Psi_2 + jnp.exp(self.Psi2_bias)
     
 
 class NODE_model_aniso(): #anisotropic

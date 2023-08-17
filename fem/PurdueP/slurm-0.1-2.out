@@ -1,0 +1,38 @@
+Analysis initiated from SIMULIA established products
+Abaqus JOB PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_2
+Abaqus 2020
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server mooring.ecn.purdue.edu.
+<2188 out of 3272 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+Wed 16 Aug 2023 01:50:03 PM EDT
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+ Intel(R) Fortran 17.0-1632
+NODEMM.f(36): (col. 18) remark: node_ has been targeted for automatic cpu dispatch
+NODEMM.f(450): (col. 18) remark: node_IP_nn_ has been targeted for automatic cpu dispatch
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.1.132 Build 20161005
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+
+GNU ld version 2.27-44.base.el7_9.1
+End Linking Abaqus/Standard User Subroutines
+Wed 16 Aug 2023 01:51:35 PM EDT
+Begin Analysis Input File Processor
+Wed 16 Aug 2023 01:51:35 PM EDT
+Run pre
+Wed 16 Aug 2023 01:51:49 PM EDT
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+Wed 16 Aug 2023 01:51:49 PM EDT
+Run standard
+Wed 16 Aug 2023 01:51:59 PM EDT
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+Wed 16 Aug 2023 01:51:59 PM EDT
+Run SMASimUtility
+Wed 16 Aug 2023 01:51:59 PM EDT
+End SIM Wrap-up
+Abaqus JOB PP_fine_filleted_sgmmsr_0.08_lenscale_0.1_init_2 COMPLETED

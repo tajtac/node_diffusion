@@ -2,7 +2,10 @@ from odbAccess import *
 from abaqusConstants import *
 import numpy as np
 
-
+"""
+Script description:
+Get the mean sgmx and sgmy in the square mesh for various loading conditions, sgmmsr and length scales.
+"""
 for loading in ['equi', 'offx', 'offy']:
     for sgmmsr in [0.04, 0.06, 0.08]:
         for lenscale in [10.0, 20.0, 30.0]:
